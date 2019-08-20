@@ -199,20 +199,6 @@
     <Content Include="imagewhre2Go\Logo_636790325111715350.jpg" />
     <Content Include="img\1.png" />
     <Content Include="img\Logo.png" />
-    <Content Include="Page\Account\login_ar.aspx" />
-    <Content Include="Page\Account\login_en.aspx" />
-    <Content Include="Page\Account\SignUp-resturanet_ar.aspx" />
-    <Content Include="Page\Account\SignUp-resturanet_en.aspx" />
-    <Content Include="Page\Account\SignUp.css" />
-    <Content Include="Page\Account\signUp_ar.aspx" />
-    <Content Include="Page\Account\signUp_en.aspx" />
-    <Content Include="Page\All-Resturent\all-ar.aspx" />
-    <Content Include="Page\All-Resturent\all-en.aspx" />
-    <Content Include="Page\BookPages\Book-ar.aspx" />
-    <Content Include="Page\BookPages\Book-en.aspx" />
-    <Content Include="Page\MainPage\index_ar.aspx" />
-    <Content Include="Page\MainPage\index_en.aspx" />
-    <Content Include="Page\MainPage\MainPage.aspx" />
     <Content Include="Scripts\bootstrap-datetimepicker.js" />
     <Content Include="Scripts\bootstrap-datetimepicker.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -229,153 +215,6 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Page\Account\account_ar.Master.cs">
-      <DependentUpon>account_ar.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\Account\account_ar.Master.designer.cs">
-      <DependentUpon>account_ar.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Page\Account\account_en.Master.cs">
-      <DependentUpon>account_en.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\Account\account_en.Master.designer.cs">
-      <DependentUpon>account_en.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Page\Account\login_ar.aspx.cs">
-      <DependentUpon>login_ar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\Account\login_ar.aspx.designer.cs">
-      <DependentUpon>login_ar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\Account\login_en.aspx.cs">
-      <DependentUpon>login_en.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\Account\login_en.aspx.designer.cs">
-      <DependentUpon>login_en.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\Account\SignUp-resturanet_ar.aspx.cs">
-      <DependentUpon>SignUp-resturanet_ar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\Account\SignUp-resturanet_ar.aspx.designer.cs">
-      <DependentUpon>SignUp-resturanet_ar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\Account\SignUp-resturanet_en.aspx.cs">
-      <DependentUpon>SignUp-resturanet_en.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\Account\SignUp-resturanet_en.aspx.designer.cs">
-      <DependentUpon>SignUp-resturanet_en.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\Account\signUp_ar.aspx.cs">
-      <DependentUpon>signUp_ar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\Account\signUp_ar.aspx.designer.cs">
-      <DependentUpon>signUp_ar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\Account\signUp_en.aspx.cs">
-      <DependentUpon>signUp_en.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\Account\signUp_en.aspx.designer.cs">
-      <DependentUpon>signUp_en.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\All-Resturent\all-ar.aspx.cs">
-      <DependentUpon>all-ar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\All-Resturent\all-ar.aspx.designer.cs">
-      <DependentUpon>all-ar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\All-Resturent\all-ar.Master.cs">
-      <DependentUpon>all-ar.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\All-Resturent\all-ar.Master.designer.cs">
-      <DependentUpon>all-ar.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Page\All-Resturent\all-en.aspx.cs">
-      <DependentUpon>all-en.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\All-Resturent\all-en.aspx.designer.cs">
-      <DependentUpon>all-en.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\All-Resturent\all-eng.Master.cs">
-      <DependentUpon>all-eng.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\All-Resturent\all-eng.Master.designer.cs">
-      <DependentUpon>all-eng.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Page\BookPages\Book-ar.aspx.cs">
-      <DependentUpon>Book-ar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\BookPages\Book-ar.aspx.designer.cs">
-      <DependentUpon>Book-ar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\BookPages\Book-ar.Master.cs">
-      <DependentUpon>Book-ar.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\BookPages\Book-ar.Master.designer.cs">
-      <DependentUpon>Book-ar.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Page\BookPages\Book-en.aspx.cs">
-      <DependentUpon>Book-en.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\BookPages\Book-en.aspx.designer.cs">
-      <DependentUpon>Book-en.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\BookPages\book-en.Master.cs">
-      <DependentUpon>book-en.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\BookPages\book-en.Master.designer.cs">
-      <DependentUpon>book-en.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Page\MainPage\index_ar.aspx.cs">
-      <DependentUpon>index_ar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\MainPage\index_ar.aspx.designer.cs">
-      <DependentUpon>index_ar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\MainPage\index_en.aspx.cs">
-      <DependentUpon>index_en.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\MainPage\index_en.aspx.designer.cs">
-      <DependentUpon>index_en.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\MainPage\MainPage.aspx.cs">
-      <DependentUpon>MainPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\MainPage\MainPage.aspx.designer.cs">
-      <DependentUpon>MainPage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\MainPage\Main_Ar.Master.cs">
-      <DependentUpon>Main_Ar.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\MainPage\Main_Ar.Master.designer.cs">
-      <DependentUpon>Main_Ar.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Page\MainPage\Main_En.Master.cs">
-      <DependentUpon>Main_En.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\MainPage\Main_En.Master.designer.cs">
-      <DependentUpon>Main_En.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -501,14 +340,6 @@
     <Content Include="Content\fonts\ionicons.woff" />
     <Content Include="Content\_bootstrap-datetimepicker.less" />
     <None Include="packages.config" />
-    <Content Include="Page\Account\account_ar.Master" />
-    <Content Include="Page\Account\account_en.Master" />
-    <Content Include="Page\All-Resturent\all-ar.Master" />
-    <Content Include="Page\All-Resturent\all-eng.Master" />
-    <Content Include="Page\BookPages\Book-ar.Master" />
-    <Content Include="Page\BookPages\book-en.Master" />
-    <Content Include="Page\MainPage\Main_Ar.Master" />
-    <Content Include="Page\MainPage\Main_En.Master" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
