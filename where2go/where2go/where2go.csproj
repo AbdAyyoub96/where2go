@@ -206,6 +206,8 @@
     <Content Include="Page\AccouuntPage\Login_En.aspx" />
     <Content Include="Page\All-Resturent\all_Ar.aspx" />
     <Content Include="Page\All-Resturent\all_En.aspx" />
+    <Content Include="Page\Book Page\Book_Ar.aspx" />
+    <Content Include="Page\Book Page\Book_En.aspx" />
     <Content Include="Page\MainPage\Index_Ar.aspx" />
     <Content Include="Page\MainPage\Index_En.aspx" />
     <Content Include="Page\SignUp\SignUp_Ar.aspx" />
@@ -222,6 +224,8 @@
     <Content Include="Page\AccouuntPage\log_Ar.Master" />
     <Content Include="Page\SignUp\SignUp_En.Master" />
     <Content Include="Page\SignUp\SignUp_Ar.Master" />
+    <Content Include="Page\Book Page\Book_En.Master" />
+    <Content Include="Page\Book Page\Book_Ar.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -290,6 +294,34 @@
     </Compile>
     <Compile Include="Page\All-Resturent\all_En.Master.designer.cs">
       <DependentUpon>all_En.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Book Page\Book_Ar.aspx.cs">
+      <DependentUpon>Book_Ar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Book Page\Book_Ar.aspx.designer.cs">
+      <DependentUpon>Book_Ar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Book Page\Book_Ar.Master.cs">
+      <DependentUpon>Book_Ar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Book Page\Book_Ar.Master.designer.cs">
+      <DependentUpon>Book_Ar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Book Page\Book_En.aspx.cs">
+      <DependentUpon>Book_En.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Book Page\Book_En.aspx.designer.cs">
+      <DependentUpon>Book_En.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Book Page\Book_En.Master.cs">
+      <DependentUpon>Book_En.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Book Page\Book_En.Master.designer.cs">
+      <DependentUpon>Book_En.Master</DependentUpon>
     </Compile>
     <Compile Include="Page\MainPage\Index_Ar.aspx.cs">
       <DependentUpon>Index_Ar.aspx</DependentUpon>
@@ -482,7 +514,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Page\Book Page\" />
     <Folder Include="Page\Rest_SignUp\" />
   </ItemGroup>
   <PropertyGroup>
