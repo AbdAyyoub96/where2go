@@ -201,6 +201,7 @@
     <Content Include="imagewhre2Go\Screenshot_02.jpg" />
     <Content Include="img\1.png" />
     <Content Include="img\Logo.png" />
+    <Content Include="Page\AccouuntPage\login.css" />
     <Content Include="Page\AccouuntPage\Login_Ar.aspx" />
     <Content Include="Page\AccouuntPage\Login_En.aspx" />
     <Content Include="Page\All-Resturent\all_Ar.aspx" />
