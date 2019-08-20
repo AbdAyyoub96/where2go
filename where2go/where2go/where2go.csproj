@@ -210,6 +210,8 @@
     <Content Include="Page\Book Page\Book_En.aspx" />
     <Content Include="Page\MainPage\Index_Ar.aspx" />
     <Content Include="Page\MainPage\Index_En.aspx" />
+    <Content Include="Page\Rest_SignUp\Rest_signup_Ar.aspx" />
+    <Content Include="Page\Rest_SignUp\Rest_Signup_En.aspx" />
     <Content Include="Page\SignUp\SignUp_Ar.aspx" />
     <Content Include="Page\SignUp\SignUp_En.aspx" />
     <Content Include="Scripts\bootstrap-datetimepicker.js" />
@@ -226,6 +228,8 @@
     <Content Include="Page\SignUp\SignUp_Ar.Master" />
     <Content Include="Page\Book Page\Book_En.Master" />
     <Content Include="Page\Book Page\Book_Ar.Master" />
+    <Content Include="Page\Rest_SignUp\Rest_signup_En.Master" />
+    <Content Include="Page\Rest_SignUp\Rest_signup_Ar.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -350,6 +354,34 @@
     </Compile>
     <Compile Include="Page\MainPage\Main_En.Master.designer.cs">
       <DependentUpon>Main_En.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Rest_SignUp\Rest_signup_Ar.aspx.cs">
+      <DependentUpon>Rest_signup_Ar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Rest_SignUp\Rest_signup_Ar.aspx.designer.cs">
+      <DependentUpon>Rest_signup_Ar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Rest_SignUp\Rest_signup_Ar.Master.cs">
+      <DependentUpon>Rest_signup_Ar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Rest_SignUp\Rest_signup_Ar.Master.designer.cs">
+      <DependentUpon>Rest_signup_Ar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Rest_SignUp\Rest_signup_En.Master.cs">
+      <DependentUpon>Rest_signup_En.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Rest_SignUp\Rest_signup_En.Master.designer.cs">
+      <DependentUpon>Rest_signup_En.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Rest_SignUp\Rest_Signup_En.aspx.cs">
+      <DependentUpon>Rest_Signup_En.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Rest_SignUp\Rest_Signup_En.aspx.designer.cs">
+      <DependentUpon>Rest_Signup_En.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\SignUp\SignUp_Ar.aspx.cs">
       <DependentUpon>SignUp_Ar.aspx</DependentUpon>
@@ -514,7 +546,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Page\Rest_SignUp\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
