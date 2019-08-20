@@ -1,14 +1,13 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Page/AccouuntPage/log_Ar.Master" AutoEventWireup="true" CodeBehind="Login_Ar.aspx.cs" Inherits="where2go.Page.AccouuntPage.Login_Ar" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Page/SignUp/SignUp_Ar.Master" AutoEventWireup="true" CodeBehind="SignUp_Ar.aspx.cs" Inherits="where2go.Page.SignUp.SignUp_Ar1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
      <section class="bg-6 h-500x main-slider pos-relative">
         <div class="container">
             <br />
             <br />
                             <div class="row justify-content-center">
-                                <h1 class="mt-15 mb-15" style="color:black;font-family:Mistral;font-weight:bold">Login</h1>
+                                <h1 class="mt-15 mb-15" style="color:black;font-family:Mistral;font-weight:bold">Sign Up</h1>
                                 </div>
                         </div>
 </section>
@@ -20,23 +19,24 @@
         <div class="card card-signin my-5">
           <div class="card-body">
             <form class="form-signin">
+                 <div class="form-label-group">
+                <input type="text" id="inputname" class="form-control" placeholder="الإسم الكامل" required autofocus>
+                <label for="inputname">الإسم الكامل</label>
+              </div>
               <div class="form-label-group">
                 <input type="email" id="inputEmail" class="form-control" placeholder="البريد الإلكتروني" required autofocus>
                 <label for="inputEmail">البريد الإلكتروني</label>
               </div>
-
+                 <div class="form-label-group">
+                <input type="text" id="inputPhone" class="form-control" placeholder="رقم الهاتف" required autofocus>
+                <label for="inputPhone">رقم الهاتف</label>
+              </div>
               <div class="form-label-group">
                 <input type="password" id="inputPassword" class="form-control" placeholder="كلمة المرور" required>
                 <label for="inputPassword">كلمة المرور</label>
               </div>
 
-              <div class="custom-control custom-checkbox mb-3">
-                <p>لا تمتلك حساب ؟ <a href="../SignUp/SignUp_Ar.aspx"> إنشاء حساب</a></p>
-              </div>
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">دخول</button>
-              <hr class="my-4">
-              <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i>قم بتسجيل الدخول باستخدام جوجل</button>
-              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> قم بتسجيل الدخول باستخدام الفيسبوك</button>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">تسجيل الدخول</button>
             </form>
           </div>
         </div>
@@ -70,5 +70,4 @@
     <a>wher2go - All Rights Reserved.</a> 
   </div>
 </footer>
-  
 </asp:Content>

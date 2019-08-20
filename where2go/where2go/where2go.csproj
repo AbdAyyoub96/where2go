@@ -210,6 +210,8 @@
     <Content Include="Page\All-Resturent\all_En.aspx" />
     <Content Include="Page\MainPage\Index_Ar.aspx" />
     <Content Include="Page\MainPage\Index_En.aspx" />
+    <Content Include="Page\SignUp\SignUp_Ar.aspx" />
+    <Content Include="Page\SignUp\SignUp_En.aspx" />
     <Content Include="Scripts\bootstrap-datetimepicker.js" />
     <Content Include="Scripts\bootstrap-datetimepicker.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -220,6 +222,8 @@
     <Content Include="Page\All-Resturent\all_En.Master" />
     <Content Include="Page\AccouuntPage\log_En.Master" />
     <Content Include="Page\AccouuntPage\log_Ar.Master" />
+    <Content Include="Page\SignUp\SignUp_En.Master" />
+    <Content Include="Page\SignUp\SignUp_Ar.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -330,6 +334,34 @@
     </Compile>
     <Compile Include="Page\MainPage\Main_En.Master.designer.cs">
       <DependentUpon>Main_En.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\SignUp\SignUp_Ar.aspx.cs">
+      <DependentUpon>SignUp_Ar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\SignUp\SignUp_Ar.aspx.designer.cs">
+      <DependentUpon>SignUp_Ar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\SignUp\SignUp_Ar.Master.cs">
+      <DependentUpon>SignUp_Ar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\SignUp\SignUp_Ar.Master.designer.cs">
+      <DependentUpon>SignUp_Ar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\SignUp\SignUp_En.aspx.cs">
+      <DependentUpon>SignUp_En.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\SignUp\SignUp_En.aspx.designer.cs">
+      <DependentUpon>SignUp_En.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\SignUp\SignUp_En.Master.cs">
+      <DependentUpon>SignUp_En.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\SignUp\SignUp_En.Master.designer.cs">
+      <DependentUpon>SignUp_En.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -466,7 +498,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Page\SignUp\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
