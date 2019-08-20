@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="all_Ar.master.cs" Inherits="where2go.Page.All_Resturent.all_Ar" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="log_Ar.master.cs" Inherits="where2go.Page.AccouuntPage.log_Ar" %>
 
 <!DOCTYPE html>
 
@@ -33,16 +33,11 @@
         
     </ul>
   <!-- Links -->
-  <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link" href="../AccouuntPage/Login_Ar.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold"><span class="glyphicon glyphicon-log-in"> </span>   الدخول</a>
-  </li>
-     
-</ul>
+  
       <div class="nav navbar-nav">
     <ul class="nav">
             <li class="nav-item">
-    <a class="nav-link" href="all_En.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">Engish</a>
+    <a class="nav-link" href="Login_En.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">Engish</a>
   </li>
 </ul>
             
