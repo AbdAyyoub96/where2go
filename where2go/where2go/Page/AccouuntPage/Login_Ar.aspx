@@ -20,6 +20,9 @@
         <div class="card card-signin my-5">
           <div class="card-body">
             <form class="form-signin">
+                 <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i>قم بتسجيل الدخول باستخدام جوجل</button>
+              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> قم بتسجيل الدخول باستخدام الفيسبوك</button>
+            <hr class="my-4">
               <div class="form-label-group">
                 <input type="email" id="inputEmail" class="form-control" placeholder="البريد الإلكتروني" required autofocus>
                 <label for="inputEmail">البريد الإلكتروني</label>
@@ -30,13 +33,12 @@
                 <label for="inputPassword">كلمة المرور</label>
               </div>
 
-              <div class="custom-control custom-checkbox mb-3">
-                <p>لا تمتلك حساب ؟ <a href="../SignUp/SignUp_Ar.aspx"> إنشاء حساب</a></p>
-              </div>
+              
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">دخول</button>
               <hr class="my-4">
-              <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i>قم بتسجيل الدخول باستخدام جوجل</button>
-              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> قم بتسجيل الدخول باستخدام الفيسبوك</button>
+             <div class="custom-control custom-checkbox mb-3">
+                <p>لا تمتلك حساب ؟ <a href="../SignUp/SignUp_Ar.aspx"> إنشاء حساب</a></p>
+              </div>
             </form>
           </div>
         </div>
