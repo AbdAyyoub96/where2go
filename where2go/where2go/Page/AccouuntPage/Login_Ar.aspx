@@ -31,7 +31,7 @@
               </div>
 
               <div class="custom-control custom-checkbox mb-3">
-                <p>لا تمتلك حساب ؟ <a href="#"> إنشاء حساب</a></p>
+                <p>لا تمتلك حساب ؟ <a href="SignUp_Ar.aspx"> إنشاء حساب</a></p>
               </div>
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">دخول</button>
               <hr class="my-4">
