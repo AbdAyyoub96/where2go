@@ -200,6 +200,8 @@
     <Content Include="imagewhre2Go\Logo_636790325111715350.jpg" />
     <Content Include="img\1.png" />
     <Content Include="img\Logo.png" />
+    <Content Include="Page\All-Resturent\all_Ar.aspx" />
+    <Content Include="Page\All-Resturent\all_En.aspx" />
     <Content Include="Page\MainPage\Index_Ar.aspx" />
     <Content Include="Page\MainPage\Index_En.aspx" />
     <Content Include="Scripts\bootstrap-datetimepicker.js" />
@@ -208,6 +210,8 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Page\MainPage\Main_Ar.Master" />
     <Content Include="Page\MainPage\Main_En.Master" />
+    <Content Include="Page\All-Resturent\all_Ar.Master" />
+    <Content Include="Page\All-Resturent\all_En.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -220,6 +224,34 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all_Ar.aspx.cs">
+      <DependentUpon>all_Ar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all_Ar.aspx.designer.cs">
+      <DependentUpon>all_Ar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all_Ar.Master.cs">
+      <DependentUpon>all_Ar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all_Ar.Master.designer.cs">
+      <DependentUpon>all_Ar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all_En.aspx.cs">
+      <DependentUpon>all_En.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all_En.aspx.designer.cs">
+      <DependentUpon>all_En.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all_En.Master.cs">
+      <DependentUpon>all_En.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all_En.Master.designer.cs">
+      <DependentUpon>all_En.Master</DependentUpon>
     </Compile>
     <Compile Include="Page\MainPage\Index_Ar.aspx.cs">
       <DependentUpon>Index_Ar.aspx</DependentUpon>
