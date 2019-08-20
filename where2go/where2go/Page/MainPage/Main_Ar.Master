@@ -35,7 +35,7 @@
   <!-- Links -->
   <ul class="nav">
   <li class="nav-item">
-    <a class="nav-link active"href="../index_en.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">جميع المطاعم</a>
+    <a class="nav-link active"href="../All-Resturent/all_Ar.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">جميع المطاعم</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="../Account/signUp_en.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold"><span class="glyphicon glyphicon-log-in"> </span>   الدخول</a>
@@ -58,7 +58,7 @@
             <br />
             <div class="row justify-content-center">
                 
-                                <h1 style="color:white;font-family:Mistral;font-weight:bold">WhereToGo</h1>
+                                <h1 class="mt-15 mb-15" style="color:white;font-family:Mistral;font-weight:bold">WhereToGo</h1>
                 
                 </div>
             <br />

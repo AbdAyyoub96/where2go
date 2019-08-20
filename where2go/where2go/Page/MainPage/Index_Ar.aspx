@@ -42,19 +42,19 @@
   <div class="container text-center text-md-left">
     <div class="row">
       <div class="col-md-2 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#">حول</a> </h5>
+        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">حول</a> </h5>
       </div>
       <hr class="clearfix w-100 d-md-none">
       <div class="col-md-2 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#">الشروط والأحكام</a></h5>
+        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">الشروط والأحكام</a></h5>
       </div>
         <hr class="clearfix w-100 d-md-none">
          <div class="col-md-2 mx-auto">
-       <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#">إشترك معنا</a></h5>
+       <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">إشترك معنا</a></h5>
       </div>
       <hr class="clearfix w-100 d-md-none">
          <div class="col-md-2 mx-auto">
-       <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#">اتصل بنا</a></h5>
+       <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">اتصل بنا</a></h5>
       </div>
     </div>
   </div>
