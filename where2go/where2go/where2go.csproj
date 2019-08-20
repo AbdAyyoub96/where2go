@@ -204,8 +204,6 @@
     <Content Include="Page\AccouuntPage\login.css" />
     <Content Include="Page\AccouuntPage\Login_Ar.aspx" />
     <Content Include="Page\AccouuntPage\Login_En.aspx" />
-    <Content Include="Page\AccouuntPage\SignUp_Ar.aspx" />
-    <Content Include="Page\AccouuntPage\SignUp_En.aspx" />
     <Content Include="Page\All-Resturent\all_Ar.aspx" />
     <Content Include="Page\All-Resturent\all_En.aspx" />
     <Content Include="Page\MainPage\Index_Ar.aspx" />
@@ -264,20 +262,6 @@
     </Compile>
     <Compile Include="Page\AccouuntPage\log_En.Master.designer.cs">
       <DependentUpon>log_En.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Page\AccouuntPage\SignUp_Ar.aspx.cs">
-      <DependentUpon>SignUp_Ar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\AccouuntPage\SignUp_Ar.aspx.designer.cs">
-      <DependentUpon>SignUp_Ar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\AccouuntPage\SignUp_En.aspx.cs">
-      <DependentUpon>SignUp_En.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\AccouuntPage\SignUp_En.aspx.designer.cs">
-      <DependentUpon>SignUp_En.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\All-Resturent\all_Ar.aspx.cs">
       <DependentUpon>all_Ar.aspx</DependentUpon>
@@ -498,6 +482,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Page\Book Page\" />
+    <Folder Include="Page\Rest_SignUp\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
