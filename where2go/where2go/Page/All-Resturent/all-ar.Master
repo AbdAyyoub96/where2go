@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="all-ar.master.cs" Inherits="WhereToGo.All_Resturent.all_ar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link href="../Content/bootstrap4-glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" />
+    <link href="../Content/RTL%20bootstrap.css" rel="stylesheet" />
+    <link href="../Content/fonts/ionicons.css" rel="stylesheet" />
+    <link href="../Content/common/styles.css" rel="stylesheet" />
+    <link href="../Content/plugin-frameworks/swiper.css" rel="stylesheet" />
+    <link href="../Content/fonts/beyond_the_mountains-webfont.css" rel="stylesheet" />
+    <link href="../Content/search.css" rel="stylesheet" />
+  
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+  <div class="container">
+                     <div class="nav navbar-nav pull-left">
+      <ul class="nav">
+ 
+  <li class="nav-item">
+    <a class="nav-link" href="all-en.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">English</a>
+  </li>
+</ul>
+</div>
+  <!-- Links -->
+  <ul class="nav">
+   
+  <li class="nav-item">
+    <a class="nav-link active"href="Account/signUp_ar.aspx"style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">تسجيل الدخول  <span class="glyphicon glyphicon-log-in"> </span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../index_ar.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">الصفحة الرئيسة  <span class="glyphicon glyphicon-home"> </span></a>
+  </li>
+</ul>
+        <ul class="nav navbar-nav pull-right">
+        <li class="nav-item active">
+             <a class="navbar-brand"style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:x-large;font-weight:bold" href="#">
+                WhereToGo
+            </a>
+        </li>
+            </ul>
+    
+            
+      </div>
+</nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

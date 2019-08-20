@@ -67,17 +67,449 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Angular.css" />
+    <Content Include="Content\Angular.js" />
+    <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap.css" />
+    <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap.min.css" />
+    <Content Include="Content\bootstrap-4.3.1-dist\js\bootstrap.bundle.js" />
+    <Content Include="Content\bootstrap-4.3.1-dist\js\bootstrap.bundle.min.js" />
+    <Content Include="Content\bootstrap-4.3.1-dist\js\bootstrap.js" />
+    <Content Include="Content\bootstrap-4.3.1-dist\js\bootstrap.min.js" />
+    <Content Include="Content\bootstrap-datetimepicker.min.css" />
+    <Content Include="Content\bootstrap-glyphicons.min.css" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap4-glyphicons\css\bootstrap-glyphicons.css" />
+    <Content Include="Content\bootstrap4-glyphicons\css\bootstrap-glyphicons.min.css" />
+    <Content Include="Content\bootstrap4-glyphicons\css\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap4-glyphicons\css\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap4-glyphicons\css\bootstrap.css" />
+    <Content Include="Content\bootstrap4-glyphicons\css\bootstrap.min.css" />
+    <Content Include="Content\bootstrap4-glyphicons\css\demo.css" />
+    <Content Include="Content\bootstrap4-glyphicons\css\gsdk-bootstrap-wizard.css" />
+    <Content Include="Content\bootstrap4-glyphicons\demo.css" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-brands-400.svg" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-regular-400.svg" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-solid-900.svg" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\glyphicons\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\bootstrap4-glyphicons\maps\glyphicons-fontawesome.css" />
+    <Content Include="Content\bootstrap4-glyphicons\maps\glyphicons-fontawesome.min.css" />
+    <Content Include="Content\bootstrap4-glyphicons\material-kit.css" />
+    <Content Include="Content\build\css\demo.css" />
+    <Content Include="Content\build\css\intlTelInput.css" />
+    <Content Include="Content\build\css\intlTelInput.min.css" />
+    <Content Include="Content\build\img\flags%402x.png" />
+    <Content Include="Content\build\img\flags.png" />
+    <Content Include="Content\build\js\intlTelInput-jquery.js" />
+    <Content Include="Content\build\js\intlTelInput-jquery.min.js" />
+    <Content Include="Content\build\js\intlTelInput.js" />
+    <Content Include="Content\build\js\intlTelInput.min.js" />
+    <Content Include="Content\build\js\Phone.js" />
+    <Content Include="Content\build\js\utils.js" />
+    <Content Include="Content\common\scripts.js" />
+    <Content Include="Content\common\styles.css" />
+    <Content Include="Content\demo.css" />
+    <Content Include="Content\Exam.css" />
+    <Content Include="Content\fonts\beyond_the_mountains-webfont.css" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\fonts\ionicons.css" />
+    <Content Include="Content\fonts\ionicons.svg" />
+    <Content Include="Content\gsdk-bootstrap-wizard.css" />
+    <Content Include="Content\images\about-1-600x400.jpg" />
+    <Content Include="Content\images\about-2-600x400.jpg" />
+    <Content Include="Content\images\blog-1-1000x400.jpg" />
+    <Content Include="Content\images\blog-2-1000x400.jpg" />
+    <Content Include="Content\images\blog-3-1000x400.jpg" />
+    <Content Include="Content\images\footer-1.png" />
+    <Content Include="Content\images\footer_1600x800.jpg" />
+    <Content Include="Content\images\heading_logo.png" />
+    <Content Include="Content\images\icin-1-200x200.png" />
+    <Content Include="Content\images\icin-2-200x200.png" />
+    <Content Include="Content\images\icin-3-200x200.png" />
+    <Content Include="Content\images\icin-4-200x200.png" />
+    <Content Include="Content\images\icon-boxes.png" />
+    <Content Include="Content\images\icons.png" />
+    <Content Include="Content\images\logo-white.png" />
+    <Content Include="Content\images\menu-1-120x120.jpg" />
+    <Content Include="Content\images\menu-2-120x120.jpg" />
+    <Content Include="Content\images\menu-3-120x120.jpg" />
+    <Content Include="Content\images\menu-4-120x120.jpg" />
+    <Content Include="Content\images\menu-5-120x120.jpg" />
+    <Content Include="Content\images\menu-6-120x120.jpg" />
+    <Content Include="Content\images\menu-7-120x120.jpg" />
+    <Content Include="Content\images\menu-8-120x120.jpg" />
+    <Content Include="Content\images\pasta-1-300x300.png" />
+    <Content Include="Content\images\pasta-2-300x300.png" />
+    <Content Include="Content\images\quoto-1-200x200.jpg" />
+    <Content Include="Content\images\quoto-2-200x200.jpg" />
+    <Content Include="Content\images\quoto-3-200x200.jpg" />
+    <Content Include="Content\images\seller-2-200x200.png" />
+    <Content Include="Content\images\seller-3-200x200.png" />
+    <Content Include="Content\images\seller-4-200x200.png" />
+    <Content Include="Content\images\seller-5-200x200.png" />
+    <Content Include="Content\images\seller-6-200x200.png" />
+    <Content Include="Content\images\seller-7-200x200.png" />
+    <Content Include="Content\images\sellers-1-1600x1600.jpg" />
+    <Content Include="Content\images\sidebar-1-400x600.jpg" />
+    <Content Include="Content\images\sidebar-2-400x600.jpg" />
+    <Content Include="Content\images\sidebar-3-200x200.jpg" />
+    <Content Include="Content\images\sidebar-4-200x200.jpg" />
+    <Content Include="Content\images\sidebar-5-200x200.jpg" />
+    <Content Include="Content\images\slider_1_1920_1200.jpg" />
+    <Content Include="Content\images\slider_2_1920_600.jpg" />
+    <Content Include="Content\images\slider_3_1920_600.jpg" />
+    <Content Include="Content\images\slider_4_1920_600.jpg" />
+    <Content Include="Content\images\slider_5_1920_600.jpg" />
+    <Content Include="Content\images\slider_6_1920_600.jpg" />
+    <Content Include="Content\images\story_bg_1.png" />
+    <Content Include="Content\images\story_bg_2.png" />
+    <Content Include="Content\images\triangle_bg.png" />
+    <Content Include="Content\images\triangle_bg_black.png" />
+    <Content Include="Content\plugin-frameworks\bootstrap.min.css" />
+    <Content Include="Content\plugin-frameworks\bootstrap.min.js" />
+    <Content Include="Content\plugin-frameworks\jquery-3.2.1.min.js" />
+    <Content Include="Content\plugin-frameworks\jquery.waypoints.min.js" />
+    <Content Include="Content\plugin-frameworks\progressbar.min.js" />
+    <Content Include="Content\plugin-frameworks\swiper.css" />
+    <Content Include="Content\plugin-frameworks\swiper.js" />
+    <Content Include="Content\plugin-frameworks\tether.min.js" />
+    <Content Include="Content\RTL bootstrap.css" />
+    <Content Include="Content\search.css" />
+    <Content Include="Content\sniper.js" />
     <Content Include="Global.asax" />
+    <Content Include="imagewhre2Go\download %281%29.jpg" />
+    <Content Include="imagewhre2Go\download.jpg" />
+    <Content Include="imagewhre2Go\GettyImages-1026535664.jpg" />
+    <Content Include="imagewhre2Go\images %281%29.jpg" />
+    <Content Include="imagewhre2Go\images %282%29.jpg" />
+    <Content Include="imagewhre2Go\images %283%29.jpg" />
+    <Content Include="imagewhre2Go\logo_%283%29_636969414435722365.jpg" />
+    <Content Include="imagewhre2Go\Logo_-_Monopoly_thumb_636766742497068590.jpg" />
+    <Content Include="imagewhre2Go\Logo_636790325111715350.jpg" />
+    <Content Include="img\1.png" />
+    <Content Include="img\Logo.png" />
+    <Content Include="Page\Account\login_ar.aspx" />
+    <Content Include="Page\Account\login_en.aspx" />
+    <Content Include="Page\Account\SignUp-resturanet_ar.aspx" />
+    <Content Include="Page\Account\SignUp-resturanet_en.aspx" />
+    <Content Include="Page\Account\SignUp.css" />
+    <Content Include="Page\Account\signUp_ar.aspx" />
+    <Content Include="Page\Account\signUp_en.aspx" />
+    <Content Include="Page\All-Resturent\all-ar.aspx" />
+    <Content Include="Page\All-Resturent\all-en.aspx" />
+    <Content Include="Page\BookPages\Book-ar.aspx" />
+    <Content Include="Page\BookPages\Book-en.aspx" />
+    <Content Include="Page\MainPage\index_ar.aspx" />
+    <Content Include="Page\MainPage\index_en.aspx" />
+    <Content Include="Page\MainPage\MainPage.aspx" />
+    <Content Include="Scripts\bootstrap-datetimepicker.js" />
+    <Content Include="Scripts\bootstrap-datetimepicker.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\moment-with-locales.js" />
+    <Content Include="Scripts\moment-with-locales.min.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Page\Account\account_ar.Master.cs">
+      <DependentUpon>account_ar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Account\account_ar.Master.designer.cs">
+      <DependentUpon>account_ar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Account\account_en.Master.cs">
+      <DependentUpon>account_en.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Account\account_en.Master.designer.cs">
+      <DependentUpon>account_en.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Account\login_ar.aspx.cs">
+      <DependentUpon>login_ar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Account\login_ar.aspx.designer.cs">
+      <DependentUpon>login_ar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Account\login_en.aspx.cs">
+      <DependentUpon>login_en.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Account\login_en.aspx.designer.cs">
+      <DependentUpon>login_en.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Account\SignUp-resturanet_ar.aspx.cs">
+      <DependentUpon>SignUp-resturanet_ar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Account\SignUp-resturanet_ar.aspx.designer.cs">
+      <DependentUpon>SignUp-resturanet_ar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Account\SignUp-resturanet_en.aspx.cs">
+      <DependentUpon>SignUp-resturanet_en.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Account\SignUp-resturanet_en.aspx.designer.cs">
+      <DependentUpon>SignUp-resturanet_en.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Account\signUp_ar.aspx.cs">
+      <DependentUpon>signUp_ar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Account\signUp_ar.aspx.designer.cs">
+      <DependentUpon>signUp_ar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Account\signUp_en.aspx.cs">
+      <DependentUpon>signUp_en.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Account\signUp_en.aspx.designer.cs">
+      <DependentUpon>signUp_en.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all-ar.aspx.cs">
+      <DependentUpon>all-ar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all-ar.aspx.designer.cs">
+      <DependentUpon>all-ar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all-ar.Master.cs">
+      <DependentUpon>all-ar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all-ar.Master.designer.cs">
+      <DependentUpon>all-ar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all-en.aspx.cs">
+      <DependentUpon>all-en.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all-en.aspx.designer.cs">
+      <DependentUpon>all-en.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all-eng.Master.cs">
+      <DependentUpon>all-eng.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\All-Resturent\all-eng.Master.designer.cs">
+      <DependentUpon>all-eng.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BookPages\Book-ar.aspx.cs">
+      <DependentUpon>Book-ar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BookPages\Book-ar.aspx.designer.cs">
+      <DependentUpon>Book-ar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BookPages\Book-ar.Master.cs">
+      <DependentUpon>Book-ar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BookPages\Book-ar.Master.designer.cs">
+      <DependentUpon>Book-ar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BookPages\Book-en.aspx.cs">
+      <DependentUpon>Book-en.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BookPages\Book-en.aspx.designer.cs">
+      <DependentUpon>Book-en.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BookPages\book-en.Master.cs">
+      <DependentUpon>book-en.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BookPages\book-en.Master.designer.cs">
+      <DependentUpon>book-en.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\MainPage\index_ar.aspx.cs">
+      <DependentUpon>index_ar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\MainPage\index_ar.aspx.designer.cs">
+      <DependentUpon>index_ar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\MainPage\index_en.aspx.cs">
+      <DependentUpon>index_en.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\MainPage\index_en.aspx.designer.cs">
+      <DependentUpon>index_en.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\MainPage\MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\MainPage\MainPage.aspx.designer.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\MainPage\Main_Ar.Master.cs">
+      <DependentUpon>Main_Ar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\MainPage\Main_Ar.Master.designer.cs">
+      <DependentUpon>Main_Ar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\MainPage\Main_En.Master.cs">
+      <DependentUpon>Main_En.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\MainPage\Main_En.Master.designer.cs">
+      <DependentUpon>Main_En.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap-grid.css.map" />
+    <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap-4.3.1-dist\js\bootstrap.bundle.js.map" />
+    <Content Include="Content\bootstrap-4.3.1-dist\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Content\bootstrap-4.3.1-dist\js\bootstrap.js.map" />
+    <Content Include="Content\bootstrap-4.3.1-dist\js\bootstrap.min.js.map" />
+    <Content Include="Content\bootstrap-datetimepicker-build.less" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap4-glyphicons\config.json" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-brands-400.eot" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-brands-400.ttf" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-brands-400.woff" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-brands-400.woff2" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-regular-400.eot" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-regular-400.ttf" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-regular-400.woff" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-regular-400.woff2" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-solid-900.eot" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-solid-900.ttf" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-solid-900.woff" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\fontawesome\fa-solid-900.woff2" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\glyphicons\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\glyphicons\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\glyphicons\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\bootstrap4-glyphicons\fonts\glyphicons\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\bootstrap4-glyphicons\maps\glyphicons-fontawesome.less" />
+    <Content Include="Content\bootstrap\alerts.less" />
+    <Content Include="Content\bootstrap\badges.less" />
+    <Content Include="Content\bootstrap\bootstrap.less" />
+    <Content Include="Content\bootstrap\breadcrumbs.less" />
+    <Content Include="Content\bootstrap\button-groups.less" />
+    <Content Include="Content\bootstrap\buttons.less" />
+    <Content Include="Content\bootstrap\carousel.less" />
+    <Content Include="Content\bootstrap\close.less" />
+    <Content Include="Content\bootstrap\code.less" />
+    <Content Include="Content\bootstrap\component-animations.less" />
+    <Content Include="Content\bootstrap\dropdowns.less" />
+    <Content Include="Content\bootstrap\forms.less" />
+    <Content Include="Content\bootstrap\glyphicons.less" />
+    <Content Include="Content\bootstrap\grid.less" />
+    <Content Include="Content\bootstrap\input-groups.less" />
+    <Content Include="Content\bootstrap\jumbotron.less" />
+    <Content Include="Content\bootstrap\labels.less" />
+    <Content Include="Content\bootstrap\list-group.less" />
+    <Content Include="Content\bootstrap\media.less" />
+    <Content Include="Content\bootstrap\mixins.less" />
+    <Content Include="Content\bootstrap\mixins\alerts.less" />
+    <Content Include="Content\bootstrap\mixins\background-variant.less" />
+    <Content Include="Content\bootstrap\mixins\border-radius.less" />
+    <Content Include="Content\bootstrap\mixins\buttons.less" />
+    <Content Include="Content\bootstrap\mixins\center-block.less" />
+    <Content Include="Content\bootstrap\mixins\clearfix.less" />
+    <Content Include="Content\bootstrap\mixins\forms.less" />
+    <Content Include="Content\bootstrap\mixins\gradients.less" />
+    <Content Include="Content\bootstrap\mixins\grid-framework.less" />
+    <Content Include="Content\bootstrap\mixins\grid.less" />
+    <Content Include="Content\bootstrap\mixins\hide-text.less" />
+    <Content Include="Content\bootstrap\mixins\image.less" />
+    <Content Include="Content\bootstrap\mixins\labels.less" />
+    <Content Include="Content\bootstrap\mixins\list-group.less" />
+    <Content Include="Content\bootstrap\mixins\nav-divider.less" />
+    <Content Include="Content\bootstrap\mixins\nav-vertical-align.less" />
+    <Content Include="Content\bootstrap\mixins\opacity.less" />
+    <Content Include="Content\bootstrap\mixins\pagination.less" />
+    <Content Include="Content\bootstrap\mixins\panels.less" />
+    <Content Include="Content\bootstrap\mixins\progress-bar.less" />
+    <Content Include="Content\bootstrap\mixins\reset-filter.less" />
+    <Content Include="Content\bootstrap\mixins\reset-text.less" />
+    <Content Include="Content\bootstrap\mixins\resize.less" />
+    <Content Include="Content\bootstrap\mixins\responsive-visibility.less" />
+    <Content Include="Content\bootstrap\mixins\size.less" />
+    <Content Include="Content\bootstrap\mixins\tab-focus.less" />
+    <Content Include="Content\bootstrap\mixins\table-row.less" />
+    <Content Include="Content\bootstrap\mixins\text-emphasis.less" />
+    <Content Include="Content\bootstrap\mixins\text-overflow.less" />
+    <Content Include="Content\bootstrap\mixins\vendor-prefixes.less" />
+    <Content Include="Content\bootstrap\modals.less" />
+    <Content Include="Content\bootstrap\navbar.less" />
+    <Content Include="Content\bootstrap\navs.less" />
+    <Content Include="Content\bootstrap\normalize.less" />
+    <Content Include="Content\bootstrap\pager.less" />
+    <Content Include="Content\bootstrap\pagination.less" />
+    <Content Include="Content\bootstrap\panels.less" />
+    <Content Include="Content\bootstrap\popovers.less" />
+    <Content Include="Content\bootstrap\print.less" />
+    <Content Include="Content\bootstrap\progress-bars.less" />
+    <Content Include="Content\bootstrap\responsive-embed.less" />
+    <Content Include="Content\bootstrap\responsive-utilities.less" />
+    <Content Include="Content\bootstrap\scaffolding.less" />
+    <Content Include="Content\bootstrap\tables.less" />
+    <Content Include="Content\bootstrap\theme.less" />
+    <Content Include="Content\bootstrap\thumbnails.less" />
+    <Content Include="Content\bootstrap\tooltip.less" />
+    <Content Include="Content\bootstrap\type.less" />
+    <Content Include="Content\bootstrap\utilities.less" />
+    <Content Include="Content\bootstrap\variables.less" />
+    <Content Include="Content\bootstrap\wells.less" />
+    <Content Include="Content\fonts\beyond_the_mountains-webfont.woff" />
+    <Content Include="Content\fonts\beyond_the_mountains-webfont.woff2" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\fonts\ionicons.eot" />
+    <Content Include="Content\fonts\ionicons.ttf" />
+    <Content Include="Content\fonts\ionicons.woff" />
+    <Content Include="Content\_bootstrap-datetimepicker.less" />
     <None Include="packages.config" />
+    <Content Include="Page\Account\account_ar.Master" />
+    <Content Include="Page\Account\account_en.Master" />
+    <Content Include="Page\All-Resturent\all-ar.Master" />
+    <Content Include="Page\All-Resturent\all-eng.Master" />
+    <Content Include="Page\BookPages\Book-ar.Master" />
+    <Content Include="Page\BookPages\book-en.Master" />
+    <Content Include="Page\MainPage\Main_Ar.Master" />
+    <Content Include="Page\MainPage\Main_En.Master" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main_Ar.master.cs" Inherits="WhereToGo.Main_Ar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link href="Content/RTL%20bootstrap.css" rel="stylesheet" />
+    <link href="Content/bootstrap4-glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" />
+     <link href="Content/fonts/ionicons.css" rel="stylesheet" />
+    <link href="Content/common/styles.css" rel="stylesheet" />
+    <link href="Content/fonts/beyond_the_mountains-webfont.css" rel="stylesheet" />
+    <link href="Content/plugin-frameworks/swiper.css" rel="stylesheet" />
+  
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">WhereToGo</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+       <a class="nav-link" href="#">English</a>
+    </form>
+  </div>
+</nav>
+
+         <section class="bg-6 h-500x main-slider pos-relative">
+        <div class="triangle-up pos-bottom"></div>
+        <div class="container h-100">
+                <div class="dplay-tbl">
+                        <div class="dplay-tbl-cell center-text color-white">
+
+                                
+                                <h1 class="mt-15 mb-15">WhereToGo</h1>
+                            <h5><b>ابحث عن مطعمك المفضل</b></h5>
+                            <div class="md-form active-pink active-pink-2 mb-3 mt-0">
+  <input class="form-control" type="text" placeholder="ابحث" aria-label="Search">
+</div>
+                                <h5><a href="#" class="btn-primaryc plr-10"><b>ابحث</b></a></h5>
+                        </div><!-- dplay-tbl-cell -->
+                </div><!-- dplay-tbl -->
+        </div><!-- container -->
+</section>
+        
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+  
+</body>
+</html>
+
