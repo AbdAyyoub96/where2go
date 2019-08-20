@@ -45,15 +45,15 @@
         <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">حول</a> </h5>
       </div>
       <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-2 mx-auto">
+      <div class="col-md-4 mx-auto">
         <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">الشروط والأحكام</a></h5>
       </div>
         <hr class="clearfix w-100 d-md-none">
-         <div class="col-md-2 mx-auto">
+         <div class="col-md-3 mx-auto">
        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">إشترك معنا</a></h5>
       </div>
       <hr class="clearfix w-100 d-md-none">
-         <div class="col-md-2 mx-auto">
+         <div class="col-md-3 mx-auto">
        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">اتصل بنا</a></h5>
       </div>
     </div>

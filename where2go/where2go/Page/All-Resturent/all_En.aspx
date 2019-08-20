@@ -155,15 +155,15 @@
         <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">About</a> </h5>
       </div>
       <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-2 mx-auto">
+      <div class="col-md-4 mx-auto">
         <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">Terms and Conditions</a></h5>
       </div>
         <hr class="clearfix w-100 d-md-none">
-         <div class="col-md-2 mx-auto">
+         <div class="col-md-3 mx-auto">
        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">Subscribe with us</a></h5>
       </div>
       <hr class="clearfix w-100 d-md-none">
-         <div class="col-md-2 mx-auto">
+         <div class="col-md-3 mx-auto">
        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">Contact Us</a></h5>
       </div>
     </div>
