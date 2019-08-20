@@ -2,6 +2,16 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+       <section class="bg-6 h-500x main-slider pos-relative">
+        <div class="container">
+            <br />
+            <br />
+                            <div class="row justify-content-center">
+                                <h1 class="mt-15 mb-15" style="color:black;font-family:Mistral;font-weight:bold">Login</h1>
+                                </div>
+                        </div>
+</section>
+  <hr/>
     <div class="container">
     <div class="row">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
