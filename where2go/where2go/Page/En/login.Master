@@ -27,12 +27,17 @@
                      <ul class="nav navbar-nav">
                       
         <li class="nav-item active">
-             <a class="navbar-brand" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:x-large;font-weight:bold" href="../MainPage/Index_En.aspx">
+             <a class="navbar-brand" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:x-large;font-weight:bold" href="Main.aspx">
                 Where2go
             </a>
         </li>
         
     </ul>
+     <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active"href="All_Restaurants.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">All Restaurants </a>
+  </li>
+</ul>
   <!-- Links -->
   
       <div class="nav navbar-nav">

@@ -51,7 +51,7 @@
       </div>
         <hr class="clearfix w-100 d-md-none">
          <div class="col-md-3 mx-auto">
-       <h5 class="font-weight-bold text-uppercase mt-4 mb-4"><a href="../Rest_SignUp/Rest_signup_En.aspx" class="btn btn-outline-dark">Subscribe with us</a></h5>
+       <h5 class="font-weight-bold text-uppercase mt-4 mb-4"><a href="Restaurant_SignUp.aspx" class="btn btn-outline-dark">Subscribe with us</a></h5>
       </div>
       <hr class="clearfix w-100 d-md-none">
          <div class="col-md-3 mx-auto">

@@ -37,7 +37,7 @@
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">دخول</button>
               <hr class="my-4">
              <div class="custom-control custom-checkbox mb-3">
-                <p>لا تمتلك حساب ؟ <a href="../SignUp/SignUp_Ar.aspx"> إنشاء حساب</a></p>
+                <p>لا تمتلك حساب ؟ <a href="User_SignUp.aspx"> إنشاء حساب</a></p>
               </div>
             </form>
           </div>
@@ -60,7 +60,7 @@
       </div>
         <hr class="clearfix w-100 d-md-none">
          <div class="col-md-3 mx-auto">
-       <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="../Rest_SignUp/Rest_signup_Ar.aspx" class="btn btn-outline-dark">إشترك معنا</a></h5>
+       <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="Restaurant_SignUp.aspx" class="btn btn-outline-dark">إشترك معنا</a></h5>
       </div>
       <hr class="clearfix w-100 d-md-none">
          <div class="col-md-3 mx-auto">
