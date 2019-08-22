@@ -19,6 +19,9 @@
         <div class="card card-signin my-5">
           <div class="card-body">
             <form class="form-signin">
+                  <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign up with Google</button>
+              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign up with Facebook</button>
+              <hr class="my-4">
                  <div class="form-label-group">
                 <input type="text" id="inputname" class="form-control" placeholder="Full Name" required autofocus>
                 <label for="inputname">Full Name</label>

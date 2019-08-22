@@ -28,7 +28,7 @@
         <h5 class="card-title">Al-Hanyen</h5>
       <p class="card-text">شاورما عربي ,سناكات</p>
     </div>
-         <h5><a href="../BookPages/Book-ar.aspx" class="btn btn-outline-dark"><b>احجز الآن</b></a></h5>
+         <h5><a href="Book.aspx" class="btn btn-outline-dark"><b>احجز الآن</b></a></h5>
     <div class="card-footer">
       <small class="text-muted">متاح</small>
     </div>

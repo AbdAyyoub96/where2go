@@ -8,7 +8,7 @@
             <br />
             <br />
                             <div class="row justify-content-center">
-                                <h1 class="mt-15 mb-15" style="color:black;font-family:Mistral;font-weight:bold">Login</h1>
+                                <h1 class="mt-15 mb-15" style="color:black;font-family:Mistral;font-weight:bold">دخول</h1>
                                 </div>
                         </div>
 </section>
@@ -20,8 +20,8 @@
         <div class="card card-signin my-5">
           <div class="card-body">
             <form class="form-signin">
-                 <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i>قم بتسجيل الدخول باستخدام جوجل</button>
-              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> قم بتسجيل الدخول باستخدام الفيسبوك</button>
+                 <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i>قم بالدخول باستخدام جوجل</button>
+              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> قم بالدخول باستخدام الفيسبوك</button>
             <hr class="my-4">
               <div class="form-label-group">
                 <input type="email" id="inputEmail" class="form-control" placeholder="البريد الإلكتروني" required autofocus>

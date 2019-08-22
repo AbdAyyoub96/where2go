@@ -36,10 +36,10 @@
   <!-- Links -->
   <ul class="nav">
   <li class="nav-item">
-    <a class="nav-link active"href="../All-Resturent/all_Ar.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">جميع المطاعم</a>
+    <a class="nav-link active"href="All_Restaurants.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">جميع المطاعم</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../AccouuntPage/Login_Ar.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold"><span class="glyphicon glyphicon-log-in"> </span>   الدخول</a>
+    <a class="nav-link" href="login.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold"><span class="glyphicon glyphicon-log-in"> </span>   الدخول</a>
   </li>
      
 </ul>
