@@ -1,19 +1,54 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Book.master.cs" Inherits="where2go.Page.En.Book" %>
 
-<!DOCTYPE html>
+<<!DOCTYPE html>
 
 <html>
 <head runat="server">
     <title></title>
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../../Content/bootstrap4-glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" />
+     <link href="Content/fonts/ionicons.css" rel="stylesheet" />
+    <link href="../../Content/fonts/ionicons.css" rel="stylesheet" />
+    <link href="../../Content/fonts/beyond_the_mountains-webfont.css" rel="stylesheet" />
+    <link href="../../Content/plugin-frameworks/swiper.css" rel="stylesheet" />
+    <link href="../../Content/login.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+ <div class="container">
+                     <ul class="nav navbar-nav">      
+        <li class="nav-item active">
+             <a class="navbar-brand" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:x-large;font-weight:bold" href="../MainPage/Index_En.aspx">
+                Where2go
+            </a>
+        </li>
+    </ul>
+  <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link" href="../AccouuntPage/Login_En.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold"><span class="glyphicon glyphicon-log-in"> </span>   Login</a>
+  </li>
+     
+</ul>
+      <div class="nav navbar-nav">
+    <ul class="nav">
+            <li class="nav-item">
+    <a class="nav-link" href="../Ar/Book.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">العربية</a>
+  </li>
+</ul>
+            
+      </div>
+     </div>
+</nav>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-    </form>
 </body>
 </html>
