@@ -2,23 +2,28 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-      <section class="bg-6 h-500x main-slider pos-relative">
-        <div class="container">
-            <br />
-            <br />
-                            <div class="row justify-content-center">
-                                <h1 class="mt-15 mb-15" style="color:black;font-family:Mistral;font-weight:bold">Sign Up</h1>
-                                </div>
-                        </div>
-</section>
-  <hr/>
-       
     <div class="container">
-    <div class="row">
-      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+      <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card card-signin my-5">
           <div class="card-body">
                 <h5 class="card-title text-center">Sign Up of restaurant owners</h5>
+    </div>
+            </div>
+            </div>
+          </div>
+        </div>
+    <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+                           <p>fhfkdvdvkdvkhvdkfn f dfkvhdfkhdkbdv dkvkdfvdv kl</p>
+                        </div>
+            </div>
+            </div>
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
             <form class="form-signin">
                  <div class="form-label-group">
                 <input type="text" id="inputname" class="form-control" placeholder="Full Name" required autofocus>
@@ -64,14 +69,12 @@
                 <input type="text" id="inputlocation" class="form-control" placeholder="Password" required>
                 <label for="inputlocation">location</label>
               </div>
-
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">SignUp</button>
+              <button class="btn btn-lg btn-dark btn-block text-uppercase" type="submit">subscribe</button>
             </form>
-          </div>
+            </div>
+            </div>
+                </div>
         </div>
-      </div>
-    </div>
-  </div>
     <hr />
     <br />
      <footer class="page-footer font-small alert-dark">
