@@ -214,20 +214,14 @@
     <Content Include="Page\En\Main.aspx" />
     <Content Include="Page\En\Restaurant_SignUp.aspx" />
     <Content Include="Page\En\User_SignUp.aspx" />
-    <Content Include="Page\MainPage\Index_En.aspx" />
-    <Content Include="Page\Rest_SignUp\Rest_signup_Ar.aspx" />
-    <Content Include="Page\Rest_SignUp\Rest_Signup_En.aspx" />
     <Content Include="Page\SignUp\SignUp_Ar.aspx" />
     <Content Include="Page\SignUp\SignUp_En.aspx" />
     <Content Include="Scripts\bootstrap-datetimepicker.js" />
     <Content Include="Scripts\bootstrap-datetimepicker.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Page\MainPage\Main_En.Master" />
     <Content Include="Page\SignUp\SignUp_En.Master" />
     <Content Include="Page\SignUp\SignUp_Ar.Master" />
-    <Content Include="Page\Rest_SignUp\Rest_signup_En.Master" />
-    <Content Include="Page\Rest_SignUp\Rest_signup_Ar.Master" />
     <Content Include="Page\Ar\All_Restaurants.Master" />
     <Content Include="Page\Ar\Book.Master" />
     <Content Include="Page\Ar\Main.Master" />
@@ -420,48 +414,6 @@
     </Compile>
     <Compile Include="Page\En\User_SignUp.Master.designer.cs">
       <DependentUpon>User_SignUp.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Page\MainPage\Index_En.aspx.cs">
-      <DependentUpon>Index_En.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\MainPage\Index_En.aspx.designer.cs">
-      <DependentUpon>Index_En.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\MainPage\Main_En.Master.cs">
-      <DependentUpon>Main_En.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\MainPage\Main_En.Master.designer.cs">
-      <DependentUpon>Main_En.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Page\Rest_SignUp\Rest_signup_Ar.aspx.cs">
-      <DependentUpon>Rest_signup_Ar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\Rest_SignUp\Rest_signup_Ar.aspx.designer.cs">
-      <DependentUpon>Rest_signup_Ar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\Rest_SignUp\Rest_signup_Ar.Master.cs">
-      <DependentUpon>Rest_signup_Ar.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\Rest_SignUp\Rest_signup_Ar.Master.designer.cs">
-      <DependentUpon>Rest_signup_Ar.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Page\Rest_SignUp\Rest_signup_En.Master.cs">
-      <DependentUpon>Rest_signup_En.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\Rest_SignUp\Rest_signup_En.Master.designer.cs">
-      <DependentUpon>Rest_signup_En.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Page\Rest_SignUp\Rest_Signup_En.aspx.cs">
-      <DependentUpon>Rest_Signup_En.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\Rest_SignUp\Rest_Signup_En.aspx.designer.cs">
-      <DependentUpon>Rest_Signup_En.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\SignUp\SignUp_Ar.aspx.cs">
       <DependentUpon>SignUp_Ar.aspx</DependentUpon>
