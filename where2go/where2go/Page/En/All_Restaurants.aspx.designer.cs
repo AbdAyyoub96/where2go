@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace where2go.Page.AccouuntPage
+namespace where2go.Page.En
 {
 
 
-    public partial class Login_En
+    public partial class All_Restaurants1
     {
     }
 }

@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Page/AccouuntPage/log_Ar.Master" AutoEventWireup="true" CodeBehind="Login_Ar.aspx.cs" Inherits="where2go.Page.AccouuntPage.Login_Ar" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Page/Ar/login.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="where2go.Page.Ar.login1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
+     
      <section class="bg-6 h-500x main-slider pos-relative">
         <div class="container">
             <br />
@@ -72,5 +72,4 @@
     <a>wher2go - All Rights Reserved.</a> 
   </div>
 </footer>
-  
 </asp:Content>

@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace where2go.Page.AccouuntPage
+namespace where2go.Page.En
 {
-    public partial class Login_Ar : System.Web.UI.Page
+    public partial class All_Restaurants1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

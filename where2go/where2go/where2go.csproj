@@ -176,6 +176,7 @@
     <Content Include="Content\images\story_bg_2.png" />
     <Content Include="Content\images\triangle_bg.png" />
     <Content Include="Content\images\triangle_bg_black.png" />
+    <Content Include="Content\login.css" />
     <Content Include="Content\plugin-frameworks\bootstrap.min.css" />
     <Content Include="Content\plugin-frameworks\bootstrap.min.js" />
     <Content Include="Content\plugin-frameworks\jquery-3.2.1.min.js" />
@@ -201,13 +202,22 @@
     <Content Include="imagewhre2Go\Screenshot_02.jpg" />
     <Content Include="img\1.png" />
     <Content Include="img\Logo.png" />
-    <Content Include="Page\AccouuntPage\login.css" />
-    <Content Include="Page\AccouuntPage\Login_Ar.aspx" />
-    <Content Include="Page\AccouuntPage\Login_En.aspx" />
     <Content Include="Page\All-Resturent\all_Ar.aspx" />
     <Content Include="Page\All-Resturent\all_En.aspx" />
+    <Content Include="Page\Ar\All_Restaurants.aspx" />
+    <Content Include="Page\Ar\Book.aspx" />
+    <Content Include="Page\Ar\login.aspx" />
+    <Content Include="Page\Ar\Main.aspx" />
+    <Content Include="Page\Ar\Restaurant_SignUp.aspx" />
+    <Content Include="Page\Ar\User_SignUp.aspx" />
     <Content Include="Page\Book Page\Book_Ar.aspx" />
     <Content Include="Page\Book Page\Book_En.aspx" />
+    <Content Include="Page\En\All_Restaurants.aspx" />
+    <Content Include="Page\En\Book.aspx" />
+    <Content Include="Page\En\login.aspx" />
+    <Content Include="Page\En\Main.aspx" />
+    <Content Include="Page\En\Restaurant_SignUp.aspx" />
+    <Content Include="Page\En\User_SignUp.aspx" />
     <Content Include="Page\MainPage\Index_En.aspx" />
     <Content Include="Page\Rest_SignUp\Rest_signup_Ar.aspx" />
     <Content Include="Page\Rest_SignUp\Rest_Signup_En.aspx" />
@@ -220,14 +230,24 @@
     <Content Include="Page\MainPage\Main_En.Master" />
     <Content Include="Page\All-Resturent\all_Ar.Master" />
     <Content Include="Page\All-Resturent\all_En.Master" />
-    <Content Include="Page\AccouuntPage\log_En.Master" />
-    <Content Include="Page\AccouuntPage\log_Ar.Master" />
     <Content Include="Page\SignUp\SignUp_En.Master" />
     <Content Include="Page\SignUp\SignUp_Ar.Master" />
     <Content Include="Page\Book Page\Book_En.Master" />
     <Content Include="Page\Book Page\Book_Ar.Master" />
     <Content Include="Page\Rest_SignUp\Rest_signup_En.Master" />
     <Content Include="Page\Rest_SignUp\Rest_signup_Ar.Master" />
+    <Content Include="Page\Ar\All_Restaurants.Master" />
+    <Content Include="Page\Ar\Book.Master" />
+    <Content Include="Page\Ar\Main.Master" />
+    <Content Include="Page\Ar\login.Master" />
+    <Content Include="Page\Ar\User_SignUp.Master" />
+    <Content Include="Page\Ar\Restaurant_SignUp.Master" />
+    <Content Include="Page\En\All_Restaurants.Master" />
+    <Content Include="Page\En\Main.Master" />
+    <Content Include="Page\En\Restaurant_SignUp.Master" />
+    <Content Include="Page\En\login.Master" />
+    <Content Include="Page\En\User_SignUp.Master" />
+    <Content Include="Page\En\Book.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -240,34 +260,6 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Page\AccouuntPage\Login_Ar.aspx.cs">
-      <DependentUpon>Login_Ar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\AccouuntPage\Login_Ar.aspx.designer.cs">
-      <DependentUpon>Login_Ar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\AccouuntPage\Login_En.aspx.cs">
-      <DependentUpon>Login_En.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\AccouuntPage\Login_En.aspx.designer.cs">
-      <DependentUpon>Login_En.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Page\AccouuntPage\log_Ar.Master.cs">
-      <DependentUpon>log_Ar.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\AccouuntPage\log_Ar.Master.designer.cs">
-      <DependentUpon>log_Ar.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Page\AccouuntPage\log_En.Master.cs">
-      <DependentUpon>log_En.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\AccouuntPage\log_En.Master.designer.cs">
-      <DependentUpon>log_En.Master</DependentUpon>
     </Compile>
     <Compile Include="Page\All-Resturent\all_Ar.aspx.cs">
       <DependentUpon>all_Ar.aspx</DependentUpon>
@@ -297,6 +289,90 @@
     <Compile Include="Page\All-Resturent\all_En.Master.designer.cs">
       <DependentUpon>all_En.Master</DependentUpon>
     </Compile>
+    <Compile Include="Page\Ar\All_Restaurants.aspx.cs">
+      <DependentUpon>All_Restaurants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\All_Restaurants.aspx.designer.cs">
+      <DependentUpon>All_Restaurants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\All_Restaurants.Master.cs">
+      <DependentUpon>All_Restaurants.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\All_Restaurants.Master.designer.cs">
+      <DependentUpon>All_Restaurants.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\Book.aspx.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\Book.aspx.designer.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\Book.Master.cs">
+      <DependentUpon>Book.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\Book.Master.designer.cs">
+      <DependentUpon>Book.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\login.Master.cs">
+      <DependentUpon>login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\login.Master.designer.cs">
+      <DependentUpon>login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\Restaurant_SignUp.aspx.cs">
+      <DependentUpon>Restaurant_SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\Restaurant_SignUp.aspx.designer.cs">
+      <DependentUpon>Restaurant_SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\Restaurant_SignUp.Master.cs">
+      <DependentUpon>Restaurant_SignUp.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\Restaurant_SignUp.Master.designer.cs">
+      <DependentUpon>Restaurant_SignUp.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\User_SignUp.aspx.cs">
+      <DependentUpon>User_SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\User_SignUp.aspx.designer.cs">
+      <DependentUpon>User_SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\User_SignUp.Master.cs">
+      <DependentUpon>User_SignUp.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\User_SignUp.Master.designer.cs">
+      <DependentUpon>User_SignUp.Master</DependentUpon>
+    </Compile>
     <Compile Include="Page\Book Page\Book_Ar.aspx.cs">
       <DependentUpon>Book_Ar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -324,6 +400,90 @@
     </Compile>
     <Compile Include="Page\Book Page\Book_En.Master.designer.cs">
       <DependentUpon>Book_En.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\All_Restaurants.aspx.cs">
+      <DependentUpon>All_Restaurants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\All_Restaurants.aspx.designer.cs">
+      <DependentUpon>All_Restaurants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\All_Restaurants.Master.cs">
+      <DependentUpon>All_Restaurants.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\All_Restaurants.Master.designer.cs">
+      <DependentUpon>All_Restaurants.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\Book.aspx.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\Book.aspx.designer.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\Book.Master.cs">
+      <DependentUpon>Book.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\Book.Master.designer.cs">
+      <DependentUpon>Book.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\login.Master.cs">
+      <DependentUpon>login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\login.Master.designer.cs">
+      <DependentUpon>login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\Restaurant_SignUp.aspx.cs">
+      <DependentUpon>Restaurant_SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\Restaurant_SignUp.aspx.designer.cs">
+      <DependentUpon>Restaurant_SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\Restaurant_SignUp.Master.cs">
+      <DependentUpon>Restaurant_SignUp.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\Restaurant_SignUp.Master.designer.cs">
+      <DependentUpon>Restaurant_SignUp.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\User_SignUp.aspx.cs">
+      <DependentUpon>User_SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\User_SignUp.aspx.designer.cs">
+      <DependentUpon>User_SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\User_SignUp.Master.cs">
+      <DependentUpon>User_SignUp.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\User_SignUp.Master.designer.cs">
+      <DependentUpon>User_SignUp.Master</DependentUpon>
     </Compile>
     <Compile Include="Page\MainPage\Index_En.aspx.cs">
       <DependentUpon>Index_En.aspx</DependentUpon>
@@ -530,7 +690,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Page\En\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
