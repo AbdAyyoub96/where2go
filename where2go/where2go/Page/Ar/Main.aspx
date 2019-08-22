@@ -37,8 +37,6 @@
 </section>
     <hr />
         </div>
-
-     
     <footer class="page-footer font-small alert-dark">
   <div class="container text-center text-md-left">
     <div class="row">
