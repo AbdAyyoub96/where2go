@@ -185,6 +185,8 @@
     <Content Include="Content\plugin-frameworks\swiper.css" />
     <Content Include="Content\plugin-frameworks\swiper.js" />
     <Content Include="Content\plugin-frameworks\tether.min.js" />
+    <Content Include="Content\Profile.css" />
+    <Content Include="Content\Profile.js" />
     <Content Include="Content\Rate.css" />
     <Content Include="Content\Rate.js" />
     <Content Include="Content\RTL bootstrap.css" />
@@ -244,7 +246,9 @@
     <Content Include="Scripts\moment.js" />
     <Content Include="Scripts\moment.min.js" />
     <Content Include="UserPage\Ar\Main.aspx" />
+    <Content Include="UserPage\Ar\Profile.aspx" />
     <Content Include="UserPage\En\Main.aspx" />
+    <Content Include="UserPage\En\Profile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -462,6 +466,20 @@
     <Compile Include="UserPage\Ar\Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
+    <Compile Include="UserPage\Ar\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\Ar\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\Ar\Profile.Master.cs">
+      <DependentUpon>Profile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\Ar\Profile.Master.designer.cs">
+      <DependentUpon>Profile.Master</DependentUpon>
+    </Compile>
     <Compile Include="UserPage\En\Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -475,6 +493,20 @@
     </Compile>
     <Compile Include="UserPage\En\Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\En\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\En\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\En\Profile.Master.cs">
+      <DependentUpon>Profile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\En\Profile.Master.designer.cs">
+      <DependentUpon>Profile.Master</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -602,6 +634,8 @@
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="UserPage\Ar\Main.Master" />
     <Content Include="UserPage\En\Main.Master" />
+    <Content Include="UserPage\Ar\Profile.Master" />
+    <Content Include="UserPage\En\Profile.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
