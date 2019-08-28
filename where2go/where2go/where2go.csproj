@@ -185,6 +185,8 @@
     <Content Include="Content\plugin-frameworks\swiper.css" />
     <Content Include="Content\plugin-frameworks\swiper.js" />
     <Content Include="Content\plugin-frameworks\tether.min.js" />
+    <Content Include="Content\Rate.css" />
+    <Content Include="Content\Rate.js" />
     <Content Include="Content\RTL bootstrap.css" />
     <Content Include="Content\search.css" />
     <Content Include="Content\sniper.js" />
@@ -206,12 +208,14 @@
     <Content Include="Page\Ar\Book.aspx" />
     <Content Include="Page\Ar\login.aspx" />
     <Content Include="Page\Ar\Main.aspx" />
+    <Content Include="Page\Ar\Rate.aspx" />
     <Content Include="Page\Ar\Restaurant_SignUp.aspx" />
     <Content Include="Page\Ar\User_SignUp.aspx" />
     <Content Include="Page\En\All_Restaurants.aspx" />
     <Content Include="Page\En\Book.aspx" />
     <Content Include="Page\En\login.aspx" />
     <Content Include="Page\En\Main.aspx" />
+    <Content Include="Page\En\Rate.aspx" />
     <Content Include="Page\En\Restaurant_SignUp.aspx" />
     <Content Include="Page\En\User_SignUp.aspx" />
     <Content Include="Scripts\bootstrap-datetimepicker.js" />
@@ -230,6 +234,8 @@
     <Content Include="Page\En\login.Master" />
     <Content Include="Page\En\User_SignUp.Master" />
     <Content Include="Page\En\Book.Master" />
+    <Content Include="Page\Ar\Rate.Master" />
+    <Content Include="Page\En\Rate.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -237,6 +243,8 @@
     <Content Include="Scripts\moment-with-locales.min.js" />
     <Content Include="Scripts\moment.js" />
     <Content Include="Scripts\moment.min.js" />
+    <Content Include="UserPage\Ar\Main.aspx" />
+    <Content Include="UserPage\En\Main.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -298,6 +306,20 @@
     </Compile>
     <Compile Include="Page\Ar\Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\Rate.aspx.cs">
+      <DependentUpon>Rate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\Rate.aspx.designer.cs">
+      <DependentUpon>Rate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\Rate.Master.cs">
+      <DependentUpon>Rate.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\Rate.Master.designer.cs">
+      <DependentUpon>Rate.Master</DependentUpon>
     </Compile>
     <Compile Include="Page\Ar\Restaurant_SignUp.aspx.cs">
       <DependentUpon>Restaurant_SignUp.aspx</DependentUpon>
@@ -383,6 +405,20 @@
     <Compile Include="Page\En\Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
+    <Compile Include="Page\En\Rate.aspx.cs">
+      <DependentUpon>Rate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\Rate.aspx.designer.cs">
+      <DependentUpon>Rate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\Rate.Master.cs">
+      <DependentUpon>Rate.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\Rate.Master.designer.cs">
+      <DependentUpon>Rate.Master</DependentUpon>
+    </Compile>
     <Compile Include="Page\En\Restaurant_SignUp.aspx.cs">
       <DependentUpon>Restaurant_SignUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -412,6 +448,34 @@
       <DependentUpon>User_SignUp.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserPage\Ar\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\Ar\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\Ar\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\Ar\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\En\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\En\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\En\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\En\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap-grid.css.map" />
@@ -536,6 +600,8 @@
     <Content Include="Content\_bootstrap-datetimepicker.less" />
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="UserPage\Ar\Main.Master" />
+    <Content Include="UserPage\En\Main.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
