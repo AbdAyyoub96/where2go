@@ -22,8 +22,11 @@
                         <div class="row">
                             <div class="col-12">
                                 <ul class="nav nav-tabs mb-4" id="myTab">
+                                     <li class="nav-item">
+                                        <a class="nav-link active" style="font-weight:bold ; color:red" href="Profile.aspx" id="basicInfo-tab"><i class="material-icons" style="color:red">account_circle</i>المعلومات الشخصية</a>
+                                    </li>
                                     <li class="nav-item">
-                                        <a class="nav-link active" id="basicInfo-tab">المعلومات الشخصية</a>
+                                        <a class="nav-link active" href="History.aspx" id="basicInfo-tab1"><i class="material-icons">restore</i>سجل الحجوزات</a>
                                     </li>
                                 </ul>
                                 <div class="tab-content ml-1" id="myTabContent">

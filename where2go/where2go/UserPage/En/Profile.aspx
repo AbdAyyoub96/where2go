@@ -22,11 +22,14 @@
                         <div class="row">
                             <div class="col-12">
                                 <ul class="nav nav-tabs mb-4" id="myTab">
+                                      <li class="nav-item">
+                                        <a class="nav-link active" style="font-weight:bold ; color:red" href="Profile.aspx" id="basicInfo-tab"><i class="material-icons" style="color:red">account_circle</i> Personal Information</a>
+                                    </li>
                                     <li class="nav-item">
-                                        <a class="nav-link active" id="basicInfo-tab">Personal Information</a>
+                                        <a class="nav-link active" href="History.aspx" id="basicInfo-tab1"><i class="material-icons">restore</i> Booking history</a>
                                     </li>
                                 </ul>
-                                <div class="tab-content ml-1" id="myTabContent">
+                                <form runat="server" class="tab-content ml-1" id="myTabContent">
                                     <div class="tab-pane fade show active" id="basicInfo">
                                         <div class="row">
                                             <div class="col-sm-3 col-md-2 col-5">
@@ -51,7 +54,8 @@
                                                 <label style="font-weight:bold;">Phone Number</label>
                                             </div>
                                             <div class="col-md-8 col-6">
-                                                0798363493
+                                                <asp:TextBox ID="TextBox2" runat="server" Text="0798363493" TextMode="Phone" Enabled="false"></asp:TextBox>
+
                                             </div>
                                         </div>
                                         <hr />
@@ -60,7 +64,8 @@
                                                 <label style="font-weight:bold;">Password</label>
                                             </div>
                                             <div class="col-md-8 col-6">
-                                              ***********
+<asp:TextBox ID="TextBox1" runat="server" Text="Abed1996" TextMode="Password" Enabled="false"></asp:TextBox>
+                                              
                                             </div>
                                              <div class="col-sm-3 col-md-2 col-5">
                                                <asp:HyperLink CssClass="glyphicon glyphicon-edit" ID="HyperLink1" runat="server" NavigateUrl="~/UserPage/En/EditPassword.aspx"> Edit </asp:HyperLink>
@@ -68,7 +73,7 @@
                                         </div>
                                         <hr />
                                     </div>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>

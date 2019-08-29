@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Profile.master.cs" Inherits="where2go.UserPage.En.Profile" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="History.master.cs" Inherits="where2go.UserPage.En.History" %>
 
 <!DOCTYPE html>
 
@@ -11,12 +11,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <link href="../../Content/bootstrap.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="../../Content/bootstrap4-glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" />
      <link href="Content/fonts/ionicons.css" rel="stylesheet" />
     <link href="../../Content/fonts/ionicons.css" rel="stylesheet" />
     <link href="../../Content/fonts/beyond_the_mountains-webfont.css" rel="stylesheet" />
     <link href="../../Content/plugin-frameworks/swiper.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="../../Content/Rate.css" rel="stylesheet" />
     <script src="../../Content/Rate.js"></script>
     <link href="../../Content/login.css" rel="stylesheet" />
@@ -50,7 +50,7 @@
       <div class="nav navbar-nav">
     <ul class="nav">
             <li class="nav-item">
-    <a class="nav-link" href="../Ar/Profile.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">العربية</a>
+    <a class="nav-link" href="../Ar/History.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">العربية</a>
   </li>
 </ul>
 

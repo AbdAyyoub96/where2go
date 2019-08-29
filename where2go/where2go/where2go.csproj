@@ -248,9 +248,11 @@
     <Content Include="Scripts\moment.js" />
     <Content Include="Scripts\moment.min.js" />
     <Content Include="UserPage\Ar\EditPassword.aspx" />
+    <Content Include="UserPage\Ar\History.aspx" />
     <Content Include="UserPage\Ar\Main.aspx" />
     <Content Include="UserPage\Ar\Profile.aspx" />
     <Content Include="UserPage\En\EditPassword.aspx" />
+    <Content Include="UserPage\En\History.aspx" />
     <Content Include="UserPage\En\Main.aspx" />
     <Content Include="UserPage\En\Profile.aspx" />
     <Content Include="Web.config" />
@@ -470,6 +472,20 @@
     <Compile Include="UserPage\Ar\EditPassword.Master.designer.cs">
       <DependentUpon>EditPassword.Master</DependentUpon>
     </Compile>
+    <Compile Include="UserPage\Ar\History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\Ar\History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\Ar\History.Master.cs">
+      <DependentUpon>History.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\Ar\History.Master.designer.cs">
+      <DependentUpon>History.Master</DependentUpon>
+    </Compile>
     <Compile Include="UserPage\Ar\Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -511,6 +527,20 @@
     </Compile>
     <Compile Include="UserPage\En\EditPassword.Master.designer.cs">
       <DependentUpon>EditPassword.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\En\History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\En\History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\En\History.Master.cs">
+      <DependentUpon>History.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\En\History.Master.designer.cs">
+      <DependentUpon>History.Master</DependentUpon>
     </Compile>
     <Compile Include="UserPage\En\Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
@@ -670,6 +700,8 @@
     <Content Include="UserPage\En\Profile.Master" />
     <Content Include="UserPage\Ar\EditPassword.Master" />
     <Content Include="UserPage\En\EditPassword.Master" />
+    <Content Include="UserPage\Ar\History.Master" />
+    <Content Include="UserPage\En\History.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

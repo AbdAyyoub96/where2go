@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Profile.master.cs" Inherits="where2go.UserPage.En.Profile" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="History.master.cs" Inherits="where2go.UserPage.Ar.History" %>
 
 <!DOCTYPE html>
 
@@ -10,12 +10,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <link href="../../Content/bootstrap.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../../Content/RTL%20bootstrap.css" rel="stylesheet" />
     <link href="../../Content/bootstrap4-glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" />
      <link href="Content/fonts/ionicons.css" rel="stylesheet" />
     <link href="../../Content/fonts/ionicons.css" rel="stylesheet" />
     <link href="../../Content/fonts/beyond_the_mountains-webfont.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="../../Content/plugin-frameworks/swiper.css" rel="stylesheet" />
     <link href="../../Content/Rate.css" rel="stylesheet" />
     <script src="../../Content/Rate.js"></script>
@@ -40,17 +40,17 @@
   <!-- Links -->
   <ul class="nav">
   <li class="nav-item">
-    <a class="nav-link active"href="All_Restaurants.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">All Restaurants</a>
+    <a class="nav-link active"href="All_Restaurants.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">جميع المطاعم</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="login.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold"><span class="glyphicon glyphicon-log-in"> </span>   login</a>
+    <a class="nav-link" href="login.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold"><span class="glyphicon glyphicon-log-in"> </span>   الدخول</a>
   </li>
 
  </ul>
       <div class="nav navbar-nav">
     <ul class="nav">
             <li class="nav-item">
-    <a class="nav-link" href="../Ar/Profile.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">العربية</a>
+    <a class="nav-link" href="../En/Profile.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">Engish</a>
   </li>
 </ul>
 
