@@ -14,7 +14,7 @@
                   <asp:Label ID="Label3" runat="server" Text="Old Password"></asp:Label>
           </div>
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-        <asp:TextBox ID="txtpass" runat="server" class="form-control"></asp:TextBox>
+        <asp:TextBox ID="txtpass" type="password" runat="server" class="form-control"></asp:TextBox>
           </div>
             </div>
               </div>
@@ -25,7 +25,7 @@
                     <asp:Label ID="lbl2"  runat="server" Text="New Password"></asp:Label>
                    </div>
                         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                        <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control"/>
+                        <asp:TextBox ID="TextBox1" type="password" runat="server" CssClass="form-control"/>
                    </div>
               </div>
                     </div>
@@ -35,13 +35,11 @@
                         <asp:Label ID="Label2" runat="server" Text="Confirm Password"></asp:Label>
                   </div>
                     <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                        <asp:TextBox ID="TextBox2" runat="server" class="form-control"></asp:TextBox>
+                        <asp:TextBox ID="TextBox2" TextMode="Password" runat="server" class="form-control"></asp:TextBox>
                         </div>
               </div>
                     </div>
-                <div class="custom-control custom-checkbox custom-control-inline">
-                <asp:CheckBox ID="CheckBox1" runat="server" CssClass="custom-checkbox" Text="Show Password" OnCheckedChanged="CheckBox1_CheckedChanged1" />  
-                </div>
+              
                 <asp:Label ID="Label1" Font-Bold="true" ForeColor="Red" runat="server" Text="Label" Visible="false"></asp:Label>
                 <hr />
                 <div class="row">
@@ -60,4 +58,5 @@
       </div>
     </div>
   </div>
+    
 </asp:Content>
