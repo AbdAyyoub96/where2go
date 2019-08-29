@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="card">
-                    <div class="card-body">
+                   <form runat="server" class="card-body">
                         <div class="card-title mb-4">
                             <div class="d-flex justify-content-start">
                                 <div class="image-container">
@@ -31,7 +31,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>

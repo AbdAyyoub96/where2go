@@ -11,7 +11,9 @@ namespace where2go.UserPage.En
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            txtpass.TextMode = TextBoxMode.Password;
+            TextBox1.TextMode = TextBoxMode.Password;
+            TextBox2.TextMode = TextBoxMode.Password;
         }
        
         protected void Button1_Click(object sender, EventArgs e)
@@ -22,6 +24,27 @@ namespace where2go.UserPage.En
                 Label1.Text = "The two words do not match";
             }
 
+        }
+
+        protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void CheckBox1_CheckedChanged1(object sender, EventArgs e)
+        {
+            if(CheckBox1.Checked==true)
+            {
+                txtpass.TextMode = TextBoxMode.SingleLine;
+                TextBox1.TextMode = TextBoxMode.SingleLine;
+                TextBox2.TextMode = TextBoxMode.SingleLine;
+            }
+            else if(CheckBox1.Checked==false)
+            {
+                txtpass.TextMode = TextBoxMode.Password;
+                TextBox1.TextMode = TextBoxMode.Password;
+                TextBox2.TextMode = TextBoxMode.Password;
+            }
         }
     }
 }
