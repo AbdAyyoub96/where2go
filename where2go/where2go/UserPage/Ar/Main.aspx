@@ -2,6 +2,32 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="container">
+    <div class="alert-dark">
+    <div class="nav">
+        <asp:Label CssClass="media-right" Font-Names="Times New Roman" Font-Bold="true" Font-Size="X-Large" ID="Label1" runat="server" Text="مرحبا   ">
+            <asp:HyperLink ID="HyperLink1" ForeColor="Black" Font-Names="Times New Roman" Font-Bold="true" Font-Size="X-Large" runat="server" NavigateUrl="~/UserPage/En/Profile.aspx">Abd Al-Rahman</asp:HyperLink>
+        </asp:Label>  
+    </div>
+        </div>
+    </div>
+
+          <section class="bg-6 h-500x main-slider pos-relative" style="background-image:url(../../imagewhre2Go/1-back.jpg)">
+        <div class="container">
+            <br />
+            <div class="row justify-content-center">
+
+                                 <h1 style="color:white;font-family:Mistral;font-weight:bold">WhereToGo</h1>
+
+                 </div>
+            <br />
+                            <div class="row justify-content-center">
+  <input class="form-control" type="text" placeholder="ابحث عن مطعمك المفضل" aria-label="Search">
+                                <br />
+                                <h5><a href="#" class="btn btn-dark"><b style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">ابحث</b></a></h5>
+                                </div>
+                        </div>
+</section>
      <hr />
     <div class="container">
 

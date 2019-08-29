@@ -39,7 +39,7 @@
   <!-- Links -->
   <ul class="nav">
   <li class="nav-item">
-    <a class="nav-link active"href="All_Restaurants.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">All_Restaurants</a>
+    <a class="nav-link active"href="All_Restaurants.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">All Restaurants</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="login.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold"><span class="glyphicon glyphicon-log-in"> </span>   login</a>
