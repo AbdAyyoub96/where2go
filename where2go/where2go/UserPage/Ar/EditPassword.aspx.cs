@@ -13,5 +13,14 @@ namespace where2go.UserPage.Ar
         {
 
         }
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (TextBox1.Text != TextBox2.Text)
+            {
+                Label1.Visible = true;
+                Label1.Text = "الكلمتين لا تتطابق";
+            }
+
+        }
     }
 }

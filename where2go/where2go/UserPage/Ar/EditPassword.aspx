@@ -2,33 +2,33 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <div class="modal" id="password_modal">
-    <div class="modal-header">
-        <h3>Change Password <span class="extra-title muted"></span></h3>
-    </div>
-    <div class="modal-body form-horizontal">
-        <div class="control-group">
-            <label for="current_password" class="control-label">Current Password</label>
-            <div class="controls">
-                <input name="current_password" type="password">
-            </div>
+     <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <form id="frm" runat="server" class="form-signin" dir="rtl">
+              <div class="form-label-group" dir="rtl">
+                                    <asp:Label ID="Label3" CssClass="container" runat="server" Text="كلمة المرور الحالية"></asp:Label>
+                  <asp:TextBox ID="txtpass" type="password" runat="server" class="form-control"></asp:TextBox>
+              </div>
+                <hr />
+                <div class="form-label-group" dir="rtl">
+                    <asp:Label ID="lbl2" CssClass="container" runat="server" Text="كلمة المرود الجديدة"></asp:Label>
+                    <asp:TextBox ID="TextBox1" type="password" runat="server" class="form-control"></asp:TextBox>
+              </div>
+                <div class="form-label-group">
+                    <asp:Label  dir="rtl" ID="Label2" CssClass="container" runat="server" Text="تأكيد كلمة المرور"></asp:Label>
+                    <asp:TextBox ID="TextBox2" type="password" runat="server" class="form-control"></asp:TextBox>
+              </div>
+                <asp:Label ID="Label1" Font-Bold="true" ForeColor="Red" runat="server" Text="Label" Visible="false"></asp:Label>
+                <asp:Button ID="Button1" runat="server"  Text="تأكيد" CssClass="btn btn-lg btn-success btn-block text-uppercase" OnClick="Button1_Click" />
+           <a class="btn btn-lg btn-danger btn-block text-uppercase">إلغاء</a>
+              <hr class="my-4">
+            </form>
+          </div>
         </div>
-        <div class="control-group">
-            <label for="new_password" class="control-label">New Password</label>
-            <div class="controls">
-                <input name="new_password" type="password">
-            </div>
-        </div>
-        <div class="control-group">
-            <label for="confirm_password" class="control-label">Confirm Password</label>
-            <div class="controls">
-                <input name="confirm_password" type="password">
-            </div>
-        </div>      
+      </div>
     </div>
-    <div class="modal-footer">
-        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-        <button class="btn btn-primary" id="password_modal_save">Save changes</button>
-    </div>
-</div>
+  </div>
 </asp:Content>
