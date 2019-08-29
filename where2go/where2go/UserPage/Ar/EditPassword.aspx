@@ -18,12 +18,13 @@
                     <asp:TextBox ID="TextBox1" type="password" runat="server" class="form-control"></asp:TextBox>
               </div>
                 <div class="form-label-group">
-                    <asp:Label  dir="rtl" ID="Label2" CssClass="d-flex align-items-center" runat="server" Text="تأكيد كلمة المرور"></asp:Label>
+                    <asp:Label ID="Label2" CssClass="d-flex align-items-center" runat="server" Text="تأكيد كلمة المرور"></asp:Label>
                     <asp:TextBox ID="TextBox2" type="password" runat="server" class="form-control"></asp:TextBox>
               </div>
                 <asp:Label ID="Label1" CssClass="d-flex align-items-center" Font-Bold="true" ForeColor="Red" runat="server" Text="Label" Visible="false"></asp:Label>
                 <asp:Button ID="Button1" runat="server"  Text="تأكيد" CssClass="btn btn-lg btn-success btn-block text-uppercase" OnClick="Button1_Click" />
-           <a class="btn btn-lg btn-danger btn-block text-uppercase">إلغاء</a>
+                <asp:HyperLink CssClass="btn btn-lg btn-danger btn-block text-uppercase" ID="HyperLink1" runat="server" NavigateUrl="~/UserPage/Ar/Profile.aspx">إلغاء</asp:HyperLink>
+         
               <hr class="my-4">
             </form>
           </div>

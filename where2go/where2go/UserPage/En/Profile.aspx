@@ -63,7 +63,7 @@
                                               ***********
                                             </div>
                                              <div class="col-sm-3 col-md-2 col-5">
-                                                <a class="glyphicon glyphicon-edit" href="#"> Edit </a>
+                                               <asp:HyperLink CssClass="glyphicon glyphicon-edit" ID="HyperLink1" runat="server" NavigateUrl="~/UserPage/En/EditPassword.aspx"> Edit </asp:HyperLink>
                                             </div>
                                         </div>
                                         <hr />

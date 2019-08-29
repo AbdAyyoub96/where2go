@@ -13,7 +13,7 @@
                                 <div class="image-container">
                                     <img src="http://placehold.it/150x150" id="imgProfile" style="width: 200px; height: 200px" class="img-thumbnail" />
                                     <div class="middle">
-                                        <input type="button" class="btn btn-secondary" id="btnChangePictureAr" value="تغيير" />
+                                        <input type="button" class="btn btn-secondary" id="btnChangePicture" value="تغيير" />
                                         <input type="file" style="display: none;" id="profilePicture" name="file" />
                                     </div>
                                 </div>
@@ -63,7 +63,8 @@
                                               ***********
                                             </div>
                                             <div class="col-sm-3 col-md-2 col-5">
-                                                <a class="glyphicon glyphicon-edit" href="#"> تعديل </a>
+                                                 <asp:HyperLink CssClass="glyphicon glyphicon-edit" ID="HyperLink1" runat="server" NavigateUrl="~/UserPage/Ar/EditPassword.aspx"> تعديل </asp:HyperLink>
+         
                                             </div>
                                         </div>
                                         <hr />
