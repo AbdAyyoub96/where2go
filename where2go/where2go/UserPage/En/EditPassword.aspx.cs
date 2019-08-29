@@ -13,5 +13,15 @@ namespace where2go.UserPage.En
         {
 
         }
+       
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (TextBox1.Text != TextBox2.Text)
+            {
+                Label1.Visible = true;
+                Label1.Text = "The two words do not match";
+            }
+
+        }
     }
 }

@@ -7,24 +7,25 @@
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card card-signin my-5">
           <div class="card-body">
-            <div class="form-signin">
+            <form id="frm" runat="server" class="form-signin">
               <div class="form-label-group">
-                <input type="email" id="pswd" class="form-control" placeholder="E-Mail">
-                <label for="pswd">Old Password</label>
+                                    <asp:Label ID="Label3" CssClass="container" runat="server" Text="Old Password"></asp:Label>
+                  <asp:TextBox ID="txtpass" type="password" runat="server" class="form-control"></asp:TextBox>
               </div>
                 <hr />
                 <div class="form-label-group">
-                <input type="email" id="npswd" class="form-control" placeholder="E-Mail">
-                <label for="npswd">New Password</label>
+                    <asp:Label ID="lbl2" CssClass="container" runat="server" Text="New Password"></asp:Label>
+                    <asp:TextBox ID="TextBox1" type="password" runat="server" class="form-control"></asp:TextBox>
               </div>
                 <div class="form-label-group">
-                <input type="email" id="vnpswd" class="form-control" placeholder="E-Mail">
-                <label for="vnpswd">Vervy Password</label>
+                    <asp:Label ID="Label2" CssClass="container" runat="server" Text="Confirm Password"></asp:Label>
+                    <asp:TextBox ID="TextBox2" type="password" runat="server" class="form-control"></asp:TextBox>
               </div>
-              <button class="btn btn-lg btn-dark btn-block text-uppercase" type="submit">Rating</button>
-                 <a class="btn btn-lg btn-dark btn-block text-uppercase">cancel</a>
+                <asp:Label ID="Label1" Font-Bold="true" ForeColor="Red" runat="server" Text="Label" Visible="false"></asp:Label>
+                <asp:Button ID="Button1" runat="server"  Text="Change" CssClass="btn btn-lg btn-success btn-block text-uppercase" OnClick="Button1_Click" />
+           <a class="btn btn-lg btn-danger btn-block text-uppercase">Cancel</a>
               <hr class="my-4">
-            </div>
+            </form>
           </div>
         </div>
       </div>
