@@ -19,34 +19,34 @@
         <div class="card card-signin my-5">
           <div class="card-body">
               <h5 class="card-title text-center">Please fill in your reservation details</h5>
-            <form class="form-signin">
+            <form id="frm" runat="server" class="form-signin">
                  <div class="form-label-group">
-                <input type="text" id="inputname" class="form-control" placeholder="Full Name" required autofocus>
-                <label for="inputname">Full Name</label>
+                  <asp:Label ID="Label3" CssClass="d-flex align-items-center" runat="server" Text="Full Name"></asp:Label>
+                  <asp:TextBox ID="inputname"  runat="server" class="form-control" ViewStateMode="Enabled" ></asp:TextBox>
               </div>
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
-                <label for="inputEmail">E-mail</label>
+                  <asp:Label ID="Label1" CssClass="d-flex align-items-center" runat="server" Text="E-mail"></asp:Label>
+                  <asp:TextBox ID="inputEmail" runat="server" class="form-control" TextMode="Email" ></asp:TextBox>
               </div>
                  <div class="form-label-group">
-                <input type="text" id="inputPhone" class="form-control" placeholder="Phone" required autofocus>
-                <label for="inputPhone">Phone</label>
+                   <asp:Label ID="Label2" CssClass="d-flex align-items-center" runat="server" Text="Phone"></asp:Label>
+                  <asp:TextBox ID="inputPhone"  runat="server" class="form-control" TextMode="Phone" ></asp:TextBox>
               </div>
               <div class="form-label-group">
-                <input type="number" id="inputnumber" class="form-control" required>
-                <label for="inputPassword">The number of people</label>
+                  <asp:Label ID="Label4" CssClass="d-flex align-items-center" runat="server" Text="The number of people"></asp:Label>
+                  <asp:TextBox ID="inputnumber"  runat="server" class="form-control" TextMode="Number" ></asp:TextBox>
               </div>
                 <div class="form-label-group">
-                <input type="datetime-local" id="inputDate" class="form-control"  required autofocus>
-                <label for="inputPhone">Time and date of booking</label>
+                    <asp:Label ID="Label5" CssClass="d-flex align-items-center" runat="server" Text="Time and date of booking"></asp:Label>
+                  <asp:TextBox ID="inputDate" runat="server" class="form-control" TextMode="DateTimeLocal"></asp:TextBox>
               </div>
                  <div class="form-group">
-                       <textarea id="comment" name="text" class="form-control"  required autofocus></textarea>
-                <label for="inputPhone"style="color:red">**For special requests please write them here like birthdays</label>
+                     <asp:Label ID="Label6" CssClass="d-flex align-items-center alert-danger"  runat="server" Text="**For special requests please write them here like birthdays"></asp:Label>
+
+                     <asp:TextBox ID="TextBox1" class="form-control" runat="server"  MaxLength="1000" Rows="5" TextMode="MultiLine"></asp:TextBox>
+                   
               </div>
-
-
-              <button class="btn btn-lg btn-dark btn-block text-uppercase" type="submit">Book Now</button>
+                <asp:Button ID="Button1" runat="server" CssClass="btn btn-lg btn-dark btn-block text-uppercase" Text="Book Now" />
             </form>
           </div>
         </div>

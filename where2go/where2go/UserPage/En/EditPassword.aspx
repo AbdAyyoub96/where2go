@@ -24,7 +24,7 @@
                 <asp:Label ID="Label1" Font-Bold="true" ForeColor="Red" runat="server" Text="Label" Visible="false"></asp:Label>
                 <asp:Button ID="Button1" runat="server"  Text="Change" CssClass="btn btn-lg btn-success btn-block text-uppercase" OnClick="Button1_Click" />
                  <asp:HyperLink CssClass="btn btn-lg btn-danger btn-block text-uppercase" ID="HyperLink1" runat="server" NavigateUrl="~/UserPage/En/Profile.aspx">Cancel</asp:HyperLink>
-         
+    
               <hr class="my-4">
             </form>
           </div>
