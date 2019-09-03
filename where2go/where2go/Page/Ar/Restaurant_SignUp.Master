@@ -57,5 +57,27 @@
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+    <footer class="page-footer font-weight-bold alert-success">
+  <div class="container text-center text-md-left">
+    <div class="row">
+      <div class="col-md-2 mx-auto">
+        <h5 class="font-weight-bold  mt-4 mb-4"><a href="#" class="btn btn-outline-success">حول</a> </h5>
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+      <div class="col-md-4 mx-auto">
+        <h5 class="font-weight-bold mt-4 mb-4"><a href="#" class="btn btn-outline-success">الشروط والأحكام</a></h5>
+      </div>
+        <hr class="clearfix w-100 d-md-none">
+         <div class="col-md-3 mx-auto">
+       <h5 class="font-weight-bold  mt-4 mb-4"><a href="#" class="btn btn-outline-success">اتصل بنا</a></h5>
+      </div>
+    </div>
+  </div>
+        <div class="navbar navbar-success bg-success">
+  <div class="footer-copyright text-center py-3">حقوق النشر &copy;<script>document.write(new Date().getFullYear());</script>
+    <a>Weher2go</a> 
+  </div>
+            </div>
+</footer>
 </body>
 </html>

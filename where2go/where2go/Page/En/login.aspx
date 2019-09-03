@@ -4,8 +4,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="signin-form">
     <form action="/examples/actions/confirmation.php" method="post">
-		<h2>Sign in</h2>
-        <p class="hint-text">Sign in with your social media account</p>
+		<h2>Login</h2>
+        <p class="hint-text">login with your social media account</p>
 		<div class="social-btn text-center">
 			<a href="#" class="btn btn-primary btn-lg" title="Facebook"><i class="fa fa-facebook"></i></a>
 			<a href="#" class="btn btn-danger btn-lg" title="Google"><i class="fa fa-google"></i></a>

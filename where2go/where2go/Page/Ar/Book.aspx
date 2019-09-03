@@ -46,7 +46,7 @@
               </div>
 
 
-              <button class="btn btn-lg btn-dark btn-block text-uppercase" type="submit">إحجز الآن</button>
+              <button class="btn btn-lg btn-success btn-block" type="submit">إحجز الآن</button>
             </form>
           </div>
         </div>
@@ -55,29 +55,4 @@
   </div>
      <hr />
     <br />
-     
-    <footer class="page-footer font-small alert-dark">
-  <div class="container text-center text-md-left">
-    <div class="row">
-      <div class="col-md-2 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">حول</a> </h5>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-4 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">الشروط والأحكام</a></h5>
-      </div>
-        <hr class="clearfix w-100 d-md-none">
-         <div class="col-md-3 mx-auto">
-       <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="Restaurant_SignUp.aspx" class="btn btn-outline-dark">إشترك معنا</a></h5>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-         <div class="col-md-3 mx-auto">
-       <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">اتصل بنا</a></h5>
-      </div>
-    </div>
-  </div>
-  <div class="footer-copyright text-center py-3">Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-    <a>wher2go - All Rights Reserved.</a> 
-  </div>
-</footer>
 </asp:Content>
