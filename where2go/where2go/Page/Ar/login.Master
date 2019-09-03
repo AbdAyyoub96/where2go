@@ -6,16 +6,20 @@
     <title></title>
      <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <link href="../../Content/RTL%20bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
     <link href="../../Content/bootstrap4-glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" />
      <link href="Content/fonts/ionicons.css" rel="stylesheet" />
     <link href="../../Content/fonts/ionicons.css" rel="stylesheet" />
     <link href="../../Content/fonts/beyond_the_mountains-webfont.css" rel="stylesheet" />
     <link href="../../Content/plugin-frameworks/swiper.css" rel="stylesheet" />
     <link href="../../Content/login.css" rel="stylesheet" />
+    <link href="../../Content/css/log.css" rel="stylesheet" />
+     <link href="../../Content/RTL%20bootstrap.css" rel="stylesheet" />
+    <script src="../../Content/css/show.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>

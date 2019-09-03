@@ -14,6 +14,7 @@
      <link href="Content/fonts/ionicons.css" rel="stylesheet" />
     <link href="../../Content/fonts/ionicons.css" rel="stylesheet" />
     <link href="../../Content/fonts/beyond_the_mountains-webfont.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="../../Content/plugin-frameworks/swiper.css" rel="stylesheet" />
     <script src="../../Content/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
     <link href="../../Content/flag.min.css" rel="stylesheet" />
@@ -21,45 +22,44 @@
     </asp:ContentPlaceHolder>
 </head>
 <body >
-     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-  <a class="navbar-brand" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:x-large;font-weight:bold" href="Main.aspx">
+<div class="bs-example">
+    <nav class="navbar navbar-expand-lg navbar-success bg-success">
+         <a class="navbar-brand" style="font-family:Times New Roman; color:black; font-size:x-large;font-weight:bold" href="Main.aspx">
                 Where2go
-            </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+         </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item">
-       <a class="nav-link active"href="All_Restaurants.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">All Restaurants </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="login.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold"><span class="glyphicon glyphicon-log-in"> </span>   Login</a>
-      </li>
-    </ul>
-    <div class="form-inline my-2 my-lg-0">
-         <a class="btn btn-outline-dark" href="../Ar/Main.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">  العربية<i class="kuwait flag"></i></a>
-    </div>
-  </div>
-</nav>
-         <section class="bg-6 h-500x main-slider pos-relative" style="background-image:url(../../imagewhre2Go/1-back.jpg)">
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a class="nav-link active"href="All_Restaurants.aspx" style="font-family:Times New Roman;color:black;font-weight:bold"><i class="ionicons ion-android-restaurant"></i> All Restaurants</a>
+                <a class="nav-link" href="login.aspx" style="font-family:Times New Roman;color:black;font-weight:bold"><i class="ionicons ion-log-in"></i>   login</a>
+               
+            </div>
+          
+            <div class="navbar-nav">
+                 <a class="nav-item nav-link" href="../Ar/Main.aspx" style="font-family:Times New Roman;color:black;font-weight:bold">العربية  <i class="fa fa-language"></i></a>
+               
+            </div>
+        </div>
+    </nav>
+</div>
+         <section class="bg-6 h-500x main-slider pos-relative" style="opacity:initial; background-image:url(../../imagewhre2Go/1-back.jpg)">
         <div class="container">
-            <br />
+            <br /><br /><br /><br />
             <div class="row justify-content-center">
-                
-                                <h1 style="color:white;font-family:Mistral;font-weight:bold">WhereToGo</h1>
-                
+                <br /><br /><br />
+                <h1 style="color:white;font-family:Mistral;font-weight:bold">WhereToGo</h1>
+                <br /><br /><br /><br /><br /><br />
                 </div>
-            <br />
-                            <div class="row justify-content-center">
-  <input class="form-control" type="text" placeholder="Find your favorite restaurant" aria-label="Search">
-                                <br />
-                                <h5><a href="#" class="btn btn-outline-dark"><b style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">Search</b></a></h5>
-                                </div>
-                        </div>
+            </div>
 </section>
+    <div class="container">
+    <div class="md-form mt-0">
+  <input class="form-control" type="text" placeholder="Find your favorite restaurant" aria-label="Search">
+</div>
+        </div>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

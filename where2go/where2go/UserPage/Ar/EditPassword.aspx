@@ -8,23 +8,49 @@
         <div class="card card-signin my-5">
           <div class="card-body">
             <form id="frm" runat="server" class="form-signin">
-              <div class="form-label-group" dir="rtl">
-                                    <asp:Label ID="Label3" CssClass="d-flex align-items-center" runat="server" Text="كلمة المرور الحالية"></asp:Label>
-                  <asp:TextBox ID="txtpass" type="password" runat="server" class="form-control"></asp:TextBox>
+              <div class="form-label-group">
+                  <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                  <asp:Label ID="Label3" runat="server" Text="كلمة المرور الحالية"></asp:Label>
+          </div>
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <asp:TextBox ID="txtpass" type="password" runat="server" class="form-control"></asp:TextBox>
+          </div>
+            </div>
               </div>
                 <hr />
                 <div class="form-label-group">
-                    <asp:Label ID="lbl2" CssClass="d-flex align-items-center" runat="server" Text="كلمة المرود الجديدة"></asp:Label>
-                    <asp:TextBox ID="TextBox1" type="password" runat="server" class="form-control"></asp:TextBox>
+                    <div class="row">
+                    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                    <asp:Label ID="lbl2"  runat="server" Text="كلمة المرور الجديدة"></asp:Label>
+                   </div>
+                        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                        <asp:TextBox ID="TextBox1" type="password" runat="server" CssClass="form-control"/>
+                   </div>
               </div>
+                    </div>
                 <div class="form-label-group">
-                    <asp:Label ID="Label2" CssClass="d-flex align-items-center" runat="server" Text="تأكيد كلمة المرور"></asp:Label>
-                    <asp:TextBox ID="TextBox2" type="password" runat="server" class="form-control"></asp:TextBox>
+                <div class="row">
+                    <div class="col-sm-9 col-md-7 col-lg-6 mx-auto">
+                        <asp:Label ID="Label2" runat="server" Text="تأكيد كلمة المرور"></asp:Label>
+                  </div>
+                    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                        <asp:TextBox ID="TextBox2" TextMode="Password" runat="server" class="form-control"></asp:TextBox>
+                        </div>
               </div>
-                <asp:Label ID="Label1" CssClass="d-flex align-items-center" Font-Bold="true" ForeColor="Red" runat="server" Text="Label" Visible="false"></asp:Label>
-                <asp:Button ID="Button1" runat="server"  Text="تأكيد" CssClass="btn btn-lg btn-success btn-block text-uppercase" OnClick="Button1_Click" />
-                <asp:HyperLink CssClass="btn btn-lg btn-danger btn-block text-uppercase" ID="HyperLink1" runat="server" NavigateUrl="~/UserPage/Ar/Profile.aspx">إلغاء</asp:HyperLink>
-         
+                    </div>
+              
+                <asp:Label ID="Label1" Font-Bold="true" ForeColor="Red" runat="server" Text="Label" Visible="false"></asp:Label>
+                <hr />
+                <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <asp:HyperLink CssClass="btn btn-lg btn-danger btn-block text-uppercase" ID="HyperLink1" runat="server" NavigateUrl="~/UserPage/En/Profile.aspx">إلغاء</asp:HyperLink>
+               
+          </div>
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                <asp:Button ID="Button1" runat="server"  Text="تغيير" CssClass="btn btn-lg btn-success btn-block text-uppercase" OnClick="Button1_Click" />
+    </div>
+                    </div>
               <hr class="my-4">
             </form>
           </div>

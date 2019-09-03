@@ -120,6 +120,8 @@
     <Content Include="Content\build\js\utils.js" />
     <Content Include="Content\common\scripts.js" />
     <Content Include="Content\common\styles.css" />
+    <Content Include="Content\css\log.css" />
+    <Content Include="Content\css\show.js" />
     <Content Include="Content\demo.css" />
     <Content Include="Content\Exam.css" />
     <Content Include="Content\flag.min.css" />
@@ -178,6 +180,7 @@
     <Content Include="Content\images\story_bg_2.png" />
     <Content Include="Content\images\triangle_bg.png" />
     <Content Include="Content\images\triangle_bg_black.png" />
+    <Content Include="Content\jquery-2.1.1.js" />
     <Content Include="Content\login.css" />
     <Content Include="Content\plugin-frameworks\bootstrap.min.css" />
     <Content Include="Content\plugin-frameworks\bootstrap.min.js" />
@@ -193,7 +196,6 @@
     <Content Include="Content\Rate.js" />
     <Content Include="Content\RTL bootstrap.css" />
     <Content Include="Content\search.css" />
-    <Content Include="Content\sniper.js" />
     <Content Include="Global.asax" />
     <Content Include="imagewhre2Go\1-back.jpg" />
     <Content Include="imagewhre2Go\download %281%29.jpg" />

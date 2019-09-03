@@ -11,7 +11,7 @@
               <div class="form-label-group">
                   <div class="row">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                  <asp:Label ID="Label3" runat="server" Text="Old Password"></asp:Label>
+                  <asp:Label ID="Label3" runat="server" Text="Current Password"></asp:Label>
           </div>
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <asp:TextBox ID="txtpass" type="password" runat="server" class="form-control"></asp:TextBox>
