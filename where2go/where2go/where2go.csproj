@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CompaniesPage\Ar\DashBoard.aspx" />
+    <Content Include="CompaniesPage\En\DashBoard.aspx" />
     <Content Include="Content\Angular.css" />
     <Content Include="Content\Angular.js" />
     <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap-grid.css" />
@@ -242,6 +244,9 @@
     <Content Include="Page\En\Book.Master" />
     <Content Include="Page\Ar\Rate.Master" />
     <Content Include="Page\En\Rate.Master" />
+    <Content Include="CompaniesPage\Ar\DashBoard.Master" />
+    <Content Include="CompaniesPage\En\DashBoard.Master" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -249,10 +254,15 @@
     <Content Include="Scripts\moment-with-locales.min.js" />
     <Content Include="Scripts\moment.js" />
     <Content Include="Scripts\moment.min.js" />
+    <Content Include="test.aspx" />
+    <Content Include="UserPage\Ar\All_Restaurants.aspx" />
+    <Content Include="UserPage\Ar\Book.aspx" />
     <Content Include="UserPage\Ar\EditPassword.aspx" />
     <Content Include="UserPage\Ar\History.aspx" />
     <Content Include="UserPage\Ar\Main.aspx" />
     <Content Include="UserPage\Ar\Profile.aspx" />
+    <Content Include="UserPage\En\All_Restaurants.aspx" />
+    <Content Include="UserPage\En\Book.aspx" />
     <Content Include="UserPage\En\EditPassword.aspx" />
     <Content Include="UserPage\En\History.aspx" />
     <Content Include="UserPage\En\Main.aspx" />
@@ -260,6 +270,34 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompaniesPage\Ar\DashBoard.aspx.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompaniesPage\Ar\DashBoard.aspx.designer.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompaniesPage\Ar\DashBoard.Master.cs">
+      <DependentUpon>DashBoard.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompaniesPage\Ar\DashBoard.Master.designer.cs">
+      <DependentUpon>DashBoard.Master</DependentUpon>
+    </Compile>
+    <Compile Include="CompaniesPage\En\DashBoard.aspx.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompaniesPage\En\DashBoard.aspx.designer.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompaniesPage\En\DashBoard.Master.cs">
+      <DependentUpon>DashBoard.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompaniesPage\En\DashBoard.Master.designer.cs">
+      <DependentUpon>DashBoard.Master</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -460,6 +498,41 @@
       <DependentUpon>User_SignUp.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\Ar\All_Restaurants.aspx.cs">
+      <DependentUpon>All_Restaurants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\Ar\All_Restaurants.aspx.designer.cs">
+      <DependentUpon>All_Restaurants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\Ar\All_Restaurants.Master.cs">
+      <DependentUpon>All_Restaurants.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\Ar\All_Restaurants.Master.designer.cs">
+      <DependentUpon>All_Restaurants.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\Ar\Book.aspx.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\Ar\Book.aspx.designer.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\Ar\Book.Master.cs">
+      <DependentUpon>Book.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\Ar\Book.Master.designer.cs">
+      <DependentUpon>Book.Master</DependentUpon>
+    </Compile>
     <Compile Include="UserPage\Ar\EditPassword.aspx.cs">
       <DependentUpon>EditPassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -515,6 +588,34 @@
     </Compile>
     <Compile Include="UserPage\Ar\Profile.Master.designer.cs">
       <DependentUpon>Profile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\En\All_Restaurants.aspx.cs">
+      <DependentUpon>All_Restaurants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\En\All_Restaurants.aspx.designer.cs">
+      <DependentUpon>All_Restaurants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\En\All_Restaurants.Master.cs">
+      <DependentUpon>All_Restaurants.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\En\All_Restaurants.Master.designer.cs">
+      <DependentUpon>All_Restaurants.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\En\Book.aspx.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\En\Book.aspx.designer.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage\En\Book.Master.cs">
+      <DependentUpon>Book.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPage\En\Book.Master.designer.cs">
+      <DependentUpon>Book.Master</DependentUpon>
     </Compile>
     <Compile Include="UserPage\En\EditPassword.aspx.cs">
       <DependentUpon>EditPassword.aspx</DependentUpon>
@@ -704,6 +805,10 @@
     <Content Include="UserPage\En\EditPassword.Master" />
     <Content Include="UserPage\Ar\History.Master" />
     <Content Include="UserPage\En\History.Master" />
+    <Content Include="UserPage\Ar\Book.Master" />
+    <Content Include="UserPage\Ar\All_Restaurants.Master" />
+    <Content Include="UserPage\En\All_Restaurants.Master" />
+    <Content Include="UserPage\En\Book.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

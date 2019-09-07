@@ -77,24 +77,4 @@
         </div>
     <hr />
     <br />
-     <footer class="page-footer font-small alert-dark">
-  <div class="container text-center text-md-left">
-    <div class="row">
-      <div class="col-md-3 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">About</a> </h5>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-5 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">Terms and Conditions</a></h5>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-         <div class="col-md-1.5 mx-auto">
-       <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">Contact Us</a></h5>
-      </div>
-    </div>
-  </div>
-  <div class="footer-copyright text-center py-3">Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-    <a>wher2go - All Rights Reserved.</a> 
-  </div>
-</footer>
 </asp:Content>

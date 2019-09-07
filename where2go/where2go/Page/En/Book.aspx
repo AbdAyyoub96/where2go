@@ -22,28 +22,28 @@
             <form id="frm" runat="server" class="form-signin">
                  <div class="form-label-group">
                   <asp:Label ID="Label3" CssClass="d-flex align-items-center" runat="server" Text="Full Name"></asp:Label>
-                  <asp:TextBox ID="inputname"  runat="server" class="form-control" ViewStateMode="Enabled" ></asp:TextBox>
+                  <asp:TextBox ID="inputname"  runat="server" Cssclass="form-control" ViewStateMode="Enabled" ></asp:TextBox>
               </div>
               <div class="form-label-group">
                   <asp:Label ID="Label1" CssClass="d-flex align-items-center" runat="server" Text="E-mail"></asp:Label>
-                  <asp:TextBox ID="inputEmail" runat="server" class="form-control" TextMode="Email" ></asp:TextBox>
+                  <asp:TextBox ID="inputEmail" runat="server" Cssclass="form-control" TextMode="Email" ></asp:TextBox>
               </div>
                  <div class="form-label-group">
                    <asp:Label ID="Label2" CssClass="d-flex align-items-center" runat="server" Text="Phone"></asp:Label>
-                  <asp:TextBox ID="inputPhone"  runat="server" class="form-control" TextMode="Phone" ></asp:TextBox>
+                  <asp:TextBox ID="inputPhone"  runat="server" Cssclass="form-control" TextMode="Phone" ></asp:TextBox>
               </div>
               <div class="form-label-group">
                   <asp:Label ID="Label4" CssClass="d-flex align-items-center" runat="server" Text="The number of people"></asp:Label>
-                  <asp:TextBox ID="inputnumber"  runat="server" class="form-control" TextMode="Number" ></asp:TextBox>
+                  <asp:TextBox ID="inputnumber"  runat="server" Cssclass="form-control" TextMode="Number" ></asp:TextBox>
               </div>
                 <div class="form-label-group">
                     <asp:Label ID="Label5" CssClass="d-flex align-items-center" runat="server" Text="Time and date of booking"></asp:Label>
-                  <asp:TextBox ID="inputDate" runat="server" class="form-control" TextMode="DateTimeLocal"></asp:TextBox>
+                  <asp:TextBox ID="inputDate" runat="server" Cssclass="form-control" TextMode="DateTimeLocal"></asp:TextBox>
               </div>
                  <div class="form-group">
                      <asp:Label ID="Label6" CssClass="d-flex align-items-center alert-danger"  runat="server" Text="**For special requests please write them here like birthdays"></asp:Label>
 
-                     <asp:TextBox ID="TextBox1" class="form-control" runat="server"  MaxLength="1000" Rows="5" TextMode="MultiLine"></asp:TextBox>
+                     <asp:TextBox ID="TextBox1" Cssclass="form-control" runat="server"  MaxLength="1000" Rows="5" TextMode="MultiLine"></asp:TextBox>
                    
               </div>
                 <asp:Button ID="Button1" runat="server" CssClass="btn btn-lg btn-dark btn-block text-uppercase" Text="Book Now" />
@@ -53,30 +53,5 @@
       </div>
     </div>
   </div>
-    <hr />
-    <br />
-     <footer class="page-footer font-small alert-dark">
-  <div class="container text-center text-md-left">
-    <div class="row">
-      <div class="col-md-2 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">About</a> </h5>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-4 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">Terms and Conditions</a></h5>
-      </div>
-        <hr class="clearfix w-100 d-md-none">
-         <div class="col-md-3 mx-auto">
-       <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="Restaurant_SignUp.aspx" class="btn btn-outline-dark">Subscribe with us</a></h5>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-         <div class="col-md-3 mx-auto">
-       <h5 class="font-weight-bold text-uppercase mt-4 mb-5"><a href="#" class="btn btn-outline-dark">Contact Us</a></h5>
-      </div>
-    </div>
-  </div>
-  <div class="footer-copyright text-center py-3">Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-    <a>wher2go - All Rights Reserved.</a> 
-  </div>
-</footer>
+   
 </asp:Content>

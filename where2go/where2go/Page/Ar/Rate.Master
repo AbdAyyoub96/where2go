@@ -58,6 +58,7 @@
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+    <br />
     <footer class="page-footer font-weight-bold alert-success">
   <div class="container text-center text-md-left">
     <div class="row">

@@ -45,25 +45,11 @@
         </div>
     </nav>
 </div>
-         <section class="bg-6 h-500x main-slider pos-relative" style="opacity:initial; background-image:url(../../imagewhre2Go/1-back.jpg)">
-        <div class="container">
-            <br /><br /><br /><br />
-            <div class="row justify-content-center">
-                <br /><br /><br />
-                <h1 style="color:white;font-family:Mistral;font-weight:bold">WhereToGo</h1>
-                <br /><br /><br /><br /><br /><br />
-                </div>
-            </div>
-</section>
-    <div class="container">
-    <div class="md-form mt-0">
-  <input class="form-control" type="text" placeholder="Find your favorite restaurant" aria-label="Search">
-</div>
-        </div>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+    <br />
     <footer class="page-footer font-weight-bold alert-success">
   <div class="container text-center text-md-left">
     <div class="row">

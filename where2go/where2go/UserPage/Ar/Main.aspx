@@ -2,28 +2,32 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-          <section class="bg-6 h-500x main-slider pos-relative" style="background-image:url(../../imagewhre2Go/1-back.jpg)">
+         <section class="bg-6 h-500x main-slider pos-relative" style="opacity:initial; background-image:url(../../imagewhre2Go/1-back.jpg)">
         <div class="container">
-            <br />
+            <br /><br /><br /><br />
             <div class="row justify-content-center">
-
-                                 <h1 style="color:white;font-family:Mistral;font-weight:bold">WhereToGo</h1>
-
-                 </div>
-            <br />
-                            <div class="row justify-content-center">
-  <input class="form-control" type="text" placeholder="ابحث عن مطعمك المفضل" aria-label="Search">
-                                <br />
-                                <h5><a href="#" class="btn btn-dark"><b style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">ابحث</b></a></h5>
-                                </div>
-                        </div>
+                <br /><br /><br />
+                <h1 style="color:white;font-family:Mistral;font-weight:bold">WhereToGo</h1>
+                <br /><br /><br /><br /><br /><br />
+                </div>
+            </div>
 </section>
-     <hr />
+     <section class="story-area left-text center-sm-text pos-relative" style="background-color:#28a745">
+    <div class="container">
+     <div class="row">
+                        <div class="col-md-6">
+                           <input class="form-control" type="text" placeholder="ابحث عن مطعمك المفضل" aria-label="Search">
+                        </div>
+
+                        <div class="col-md-1">
+                         <asp:HyperLink runat="server" NavigateUrl="#" CssClass="btn btn-outline-success" Font-Bold="true" ForeColor="Black" Text="ابحث"> </asp:HyperLink>
+                        </div>
+                </div>
+        </div>
+         </section>
     <div class="container">
 
       <section class="story-area left-text center-sm-text pos-relative">
-        <div class="abs-tbl bg-2 w-20 z--1 dplay-md-none"></div>
-        <div class="abs-tbr bg-3 w-20 z--1 dplay-md-none"></div>
         <div class="container">
             <br />
                 <div class="row justify-content-center">
@@ -37,7 +41,7 @@
                  <div class="row">
                         <div class="col-md-6">
                            <img src="../../imagewhre2Go/1-back.jpg" class="rounded mx-auto d-block" alt="W2go">
-                        </div>
+                        </div><!-- col-md-6 -->
 
                          <div class="col-md-6">
                                 <p class="mb-30">كلام عن الحياة وحكم متنوعة عن 

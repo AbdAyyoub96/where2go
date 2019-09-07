@@ -18,7 +18,6 @@
     <link href="../../Content/plugin-frameworks/swiper.css" rel="stylesheet" />
     <script src="../../Content/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="../../Content/flag.min.css" rel="stylesheet" />
      <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -46,28 +45,11 @@
         </div>
     </nav>
 </div>
-   
-
-          <section class="bg-6 h-500x main-slider pos-relative" style="background-image:url(../../imagewhre2Go/1-back.jpg)">
-        <div class="container">
-            <br />
-            <div class="row justify-content-center">
-
-                                 <h1 style="color:white;font-family:Mistral;font-weight:bold">WhereToGo</h1>
-
-                 </div>
-            <br />
-                            <div class="row justify-content-center">
-  <input class="form-control" type="text" placeholder="ابحث عن مطعمك المفضل" aria-label="Search">
-                                <br />
-                                <h5><a href="#" class="btn btn-outline-dark"><b style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">ابحث</b></a></h5>
-                                </div>
-                        </div>
-</section>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+    <br />
     <footer class="page-footer font-weight-bold alert-success">
   <div class="container text-center text-md-left">
     <div class="row">
