@@ -10,7 +10,7 @@
 namespace where2go.CompaniesPage.En {
     
     
-    public partial class DashBoard {
+    public partial class Profile {
         
         /// <summary>
         /// head control.
