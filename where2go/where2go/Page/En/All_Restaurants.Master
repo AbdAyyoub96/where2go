@@ -20,7 +20,6 @@
     <link href="../../Content/login.css" rel="stylesheet" />
     <link href="../../Content/css/log.css" rel="stylesheet" />
     <script src="../../Content/css/show.js"></script>
-  
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
