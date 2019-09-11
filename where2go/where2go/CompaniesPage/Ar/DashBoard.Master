@@ -17,9 +17,9 @@
     <link href="../../Content/fonts/beyond_the_mountains-webfont.css" rel="stylesheet" />
     <link href="../../Content/plugin-frameworks/swiper.css" rel="stylesheet" />
     <script src="../../Content/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
-     <link href="../hover.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../css/sb-admin-2.min.css" rel="stylesheet" />
      <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -43,14 +43,6 @@
             </div>
         </div>
     </nav>
-</div>
-    <div class="left">
-    <div class="item">
-        <a href="Pre_rev.aspx" style="font-family:Times New Roman;color:black;font-weight:bold"><i class="fas fa-fw fa-history"></i>   الحجوزات السابقة   </a>
-    </div>
-    <div class="item">
-        <a href="Reservations.aspx" style="font-family:Times New Roman;color:black;font-weight:bold"><i class="fas fa-fw fa-th"></i>  الحجوزات   </a>
-    </div>
 </div>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

@@ -1,19 +1,52 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Reservations.master.cs" Inherits="where2go.CompaniesPage.En.Reservations" %>
 
 <!DOCTYPE html>
-
-<html>
+ <html>
 <head runat="server">
     <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <link href="../../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../../Content/bootstrap4-glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" />
+     <link href="Content/fonts/ionicons.css" rel="stylesheet" />
+    <link href="../../Content/fonts/ionicons.css" rel="stylesheet" />
+    <link href="../../Content/fonts/beyond_the_mountains-webfont.css" rel="stylesheet" />
+    <link href="../../Content/plugin-frameworks/swiper.css" rel="stylesheet" />
+    <script src="../../Content/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <link href="../css/sb-admin-2.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <div class="bs-example">
+    <nav class="navbar navbar-expand-lg navbar-success bg-success">
+         <a class="navbar-brand" style="font-family:Times New Roman; color:black; font-size:x-large;font-weight:bold" href="DashBoard.aspx">
+                Where2go
+         </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a class="nav-link" href="Profile.aspx" style="font-family:Times New Roman;color:black;font-weight:bold"><i class="ionicons ion-ios-contact"></i>   Abd Al-Rahman</a>
+            </div>
+          
+            <div class="navbar-nav">
+                 <a class="nav-item nav-link" href="../Ar/Reservations.aspx" style="font-family:Times New Roman;color:black;font-weight:bold">العربية  <i class="fa fa-language"></i></a>
+                <a class="nav-item nav-link" href="../../Page/En/login.aspx" style="font-family:Times New Roman;color:black;font-weight:bold"><i class="ionicons ion-log-out"></i> logout</a>
+            </div>
+        </div>
+    </nav>
+</div>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-    </form>
 </body>
 </html>

@@ -27,8 +27,8 @@
     <script src="../../Content/css/show.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-    <script src="../../Content/Toastr/error.js"></script>
-    <script src="../../Content/Toastr/Warning.js"></script>
+    <script src="../../Content/Toastr/En/error.js"></script>
+    <script src="../../Content/Toastr/En/Warning.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>

@@ -73,11 +73,14 @@
     <Content Include="CompaniesPage\Ar\Pre_rev.aspx" />
     <Content Include="CompaniesPage\Ar\Profile.aspx" />
     <Content Include="CompaniesPage\Ar\Reservations.aspx" />
+    <Content Include="CompaniesPage\css\log.css" />
+    <Content Include="CompaniesPage\css\sb-admin-2.css" />
+    <Content Include="CompaniesPage\css\sb-admin-2.min.css" />
+    <Content Include="CompaniesPage\css\show.js" />
     <Content Include="CompaniesPage\En\DashBoard.aspx" />
     <Content Include="CompaniesPage\En\Pre_rev.aspx" />
     <Content Include="CompaniesPage\En\Profile.aspx" />
     <Content Include="CompaniesPage\En\Reservations.aspx" />
-    <Content Include="CompaniesPage\hover.css" />
     <Content Include="Content\Angular.css" />
     <Content Include="Content\Angular.js" />
     <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap-grid.css" />
@@ -143,8 +146,10 @@
     <Content Include="Content\gsdk-bootstrap-wizard.css" />
     <Content Include="Content\profile\profile.js" />
     <Content Include="Content\profile\profile11.css" />
-    <Content Include="Content\Toastr\error.js" />
-    <Content Include="Content\Toastr\Warning.js" />
+    <Content Include="Content\Toastr\Ar\error.js" />
+    <Content Include="Content\Toastr\Ar\Warning.js" />
+    <Content Include="Content\Toastr\En\error.js" />
+    <Content Include="Content\Toastr\En\Warning.js" />
     <Content Include="images\1.gif" />
     <Content Include="images\2.gif" />
     <Content Include="images\about-1-600x400.jpg" />
@@ -231,7 +236,7 @@
     <Content Include="loader\Loader.js" />
     <Content Include="Page\Ar\All_Restaurants.aspx" />
     <Content Include="Page\Ar\Book.aspx" />
-    <Content Include="Page\Ar\login.aspx" />
+    <Content Include="Page\Ar\Login.aspx" />
     <Content Include="Page\Ar\Main.aspx" />
     <Content Include="Page\Ar\Rate.aspx" />
     <Content Include="Page\Ar\Restaurant_SignUp.aspx" />
@@ -277,6 +282,9 @@
     <Content Include="Scripts\moment-with-locales.min.js" />
     <Content Include="Scripts\moment.js" />
     <Content Include="Scripts\moment.min.js" />
+    <Content Include="status\iconfinder_status-away_46251.png" />
+    <Content Include="status\iconfinder_status-busy_46252.png" />
+    <Content Include="status\iconfinder_status_46254.png" />
     <Content Include="UserPage\Ar\All_Restaurants.aspx" />
     <Content Include="UserPage\Ar\Book.aspx" />
     <Content Include="UserPage\Ar\EditPassword.aspx" />
@@ -435,12 +443,12 @@
     <Compile Include="Page\Ar\Book.Master.designer.cs">
       <DependentUpon>Book.Master</DependentUpon>
     </Compile>
-    <Compile Include="Page\Ar\login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="Page\Ar\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Page\Ar\login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="Page\Ar\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\Ar\login.Master.cs">
       <DependentUpon>login.Master</DependentUpon>
