@@ -10,7 +10,7 @@
 namespace where2go.Page.Ar {
     
     
-    public partial class login1 {
+    public partial class Login {
         
         /// <summary>
         /// Label1 control.

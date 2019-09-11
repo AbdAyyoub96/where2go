@@ -143,6 +143,10 @@
     <Content Include="Content\gsdk-bootstrap-wizard.css" />
     <Content Include="Content\profile\profile.js" />
     <Content Include="Content\profile\profile11.css" />
+    <Content Include="Content\Toastr\error.js" />
+    <Content Include="Content\Toastr\Warning.js" />
+    <Content Include="images\1.gif" />
+    <Content Include="images\2.gif" />
     <Content Include="images\about-1-600x400.jpg" />
     <Content Include="images\about-2-600x400.jpg" />
     <Content Include="images\blog-1-1000x400.jpg" />
@@ -223,6 +227,8 @@
     <Content Include="imagewhre2Go\Screenshot_02.jpg" />
     <Content Include="img\1.png" />
     <Content Include="img\Logo.png" />
+    <Content Include="loader\loader.css" />
+    <Content Include="loader\Loader.js" />
     <Content Include="Page\Ar\All_Restaurants.aspx" />
     <Content Include="Page\Ar\Book.aspx" />
     <Content Include="Page\Ar\login.aspx" />

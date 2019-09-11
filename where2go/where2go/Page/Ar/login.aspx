@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Page/Ar/login.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="where2go.Page.Ar.login1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Page/Ar/login.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -31,7 +31,7 @@
     </div>
   </div>
         <div class="form-group">
-            <asp:Button ID="Button1" runat="server" Text="تسجيل الدخول"  CssClass="btn btn-success btn-lg btn-block signup-btn"/>
+            <asp:Button ID="Button1" runat="server" Text="تسجيل الدخول"  CssClass="btn btn-success btn-lg btn-block signup-btn" OnClick="Button1_Click"/>
         </div>
           <div class="text-center small">ليس لديك حساب؟ <a href="User_SignUp.aspx">سجل الآن</a></div>
     </form>
