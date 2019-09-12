@@ -147,8 +147,10 @@
     <Content Include="Content\profile\profile.js" />
     <Content Include="Content\profile\profile11.css" />
     <Content Include="Content\Toastr\Ar\error.js" />
+    <Content Include="Content\Toastr\Ar\Sucsses.js" />
     <Content Include="Content\Toastr\Ar\Warning.js" />
     <Content Include="Content\Toastr\En\error.js" />
+    <Content Include="Content\Toastr\En\Sucsses.js" />
     <Content Include="Content\Toastr\En\Warning.js" />
     <Content Include="images\1.gif" />
     <Content Include="images\2.gif" />

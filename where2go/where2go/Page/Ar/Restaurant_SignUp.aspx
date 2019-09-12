@@ -22,57 +22,87 @@
             </div>
             </div>
             <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-        <div class="card card-signin my-5">
-          <div class="card-body">
-            <form class="form-signin">
-                 <div class="form-label-group">
-                <input type="text" id="inputname" class="form-control" placeholder="Full Name" required autofocus>
-                <label for="inputname">اسم المطعم باللغة العربية</label>
-              </div>
-                 <div class="form-label-group">
-                <input type="text" id="inputname2" class="form-control" placeholder="Full Name" required autofocus>
-                <label for="inputname2">اسم المطعم باللغة الإنجليزية</label>
-              </div>
-                 <div class="form-label-group">
-                <input type="text" id="inputname3" class="form-control" placeholder="Full Name" required autofocus>
-                <label for="inputname3">اسم صاحب المطعم باللغة العربية</label>
-              </div>
-                 <div class="form-label-group">
-                <input type="text" id="inputname4" class="form-control" placeholder="Full Name" required autofocus>
-                <label for="inputname4">اسم صاحب المطعم باللغة الإنجليزية</label>
-              </div>
-                 <div class="form-label-group">
-                <input type="text" id="inputtype1" class="form-control" placeholder="Full Name" required autofocus>
-                <label for="inputtype1">نوع الطعام الذي يقدم باللغة العربية</label>
-              </div>
-                 <div class="form-label-group">
-                <input type="text" id="inputtype2" class="form-control" placeholder="Full Name" required autofocus>
-                <label for="inputtype2">نوع الطعام الذي يقدم باللغة الإنجليزية</label>
-              </div>
-              <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
-                <label for="inputEmail">البريد الإلكتروني</label>
-              </div>
-                 <div class="form-label-group">
-                <input type="text" id="inputPhone" class="form-control" placeholder="Phone" required autofocus>
-                <label for="inputPhone">رقم هاتف المطعم</label>
-              </div>
-              <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                <label for="inputPassword">كلمة المرور</label>
-              </div>
-                              <div class="form-label-group">
-                <input type="file" id="inputlogo" class="form-control">
-                <label for="inputPassword">شعار الموقع</label>
-              </div>
-                              <div class="form-label-group">
-                <input type="text" id="inputlocation" class="form-control" placeholder="الموقع" required>
-                <label for="inputlocation">الموقع</label>
-              </div>
-
-              <button class="btn btn-lg btn-dark btn-block text-uppercase" type="submit">إشتراك</button>
-            </form>
-          </div>
+        <div class="signin-form">
+    <form id="form1" class="alert-success" novalidate runat="server" method="post">
+        <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="txtUserName" CssClass="form-control" placeholder="اسم المطعم باللغة العربية" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="lblErrUserName" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="TextBox1" CssClass="form-control" placeholder="اسم المطعم باللغة الإنجليزية" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="Label1" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="TextBox2" CssClass="form-control" placeholder="اسم المالك باللغة العربية" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="Label2" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="TextBox3" CssClass="form-control" placeholder="اسم المالك باللغة الإنجليزية" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="Label3" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="TextBox4" CssClass="form-control" placeholder="نوع الطعام الذي يقدم باللغة العربية" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="Label4" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="TextBox5" CssClass="form-control" placeholder="نوع الطعام الذي يقدم باللغة الإنجليزية" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="Label5" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="TextBox6" CssClass="form-control" placeholder="رقم هاتف المطعم" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="Label6" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="TextBox7" CssClass="form-control" placeholder="البريد الإلكتروني" TextMode="Email" runat="server"></asp:TextBox>
+                </div>
+               <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server"
+            ControlToValidate="TextBox7" ErrorMessage="Please enter correct email address" ForeColor="Red"
+            ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*">الرجاء إدخال البريد الإلكتروني الصحيح</asp:RegularExpressionValidator>
+            <div class="input-group">
+                <asp:Label ID="Label7" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="TextBox8" CssClass="form-control" placeholder="الموقع" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="Label8" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+        <div class="form-group">
+            <asp:Button ID="Button1" CssClass="btn btn-success btn-lg btn-block signup-btn" Text="اشتراك" runat="server" OnClick="Button1_Click" /> 
+        </div>
+    </form>
         </div>
       </div>
     </div>

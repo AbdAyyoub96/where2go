@@ -17,7 +17,13 @@
     <link href="../../Content/fonts/beyond_the_mountains-webfont.css" rel="stylesheet" />
     <link href="../../Content/plugin-frameworks/swiper.css" rel="stylesheet" />
     <link href="../../Content/login.css" rel="stylesheet" />
-  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="../../Content/Toastr/Ar/Warning.js"></script>
+    <script src="../../Content/Toastr/Ar/Sucsses.js"></script>
+    <script src="../../Content/Toastr/Ar/error.js"></script>
+    <link href="../../Content/css/log.css" rel="stylesheet" />
+    <script src="../../Content/css/show.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -33,7 +39,6 @@
         </li>
         
     </ul>
-  <!-- Links -->
   <ul class="nav">
   <li class="nav-item">
     <a class="nav-link active"href="All_Restaurants.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">جميع المطاعم</a>

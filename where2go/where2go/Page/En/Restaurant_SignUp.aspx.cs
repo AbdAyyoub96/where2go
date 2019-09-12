@@ -16,17 +16,17 @@ namespace where2go.Page.En
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
-            lblErrUserName.Text = ""; Label1.Text = "";  Label2.Text = ""; Label3.Text = "";  Label4.Text = ""; Label5.Text = "";
+            lblErrUserName.Text = ""; Label1.Text = ""; Label2.Text = ""; Label3.Text = ""; Label4.Text = ""; Label5.Text = "";
             Label6.Text = ""; Label7.Text = ""; Label8.Text = "";
-            if (txtUserName.Text=="" || TextBox1.Text=="" || TextBox2.Text == "" || TextBox3.Text == ""
-                || TextBox4.Text == "" || TextBox5.Text == ""|| TextBox6.Text == "" || TextBox7.Text == ""
+            if (txtUserName.Text == "" || TextBox1.Text == "" || TextBox2.Text == "" || TextBox3.Text == ""
+                || TextBox4.Text == "" || TextBox5.Text == "" || TextBox6.Text == "" || TextBox7.Text == ""
                 || TextBox8.Text == "")
             {
-                if(txtUserName.Text=="")
+                if (txtUserName.Text == "")
                 {
                     lblErrUserName.Text = "is required";
                 }
-                if(TextBox1.Text == "")
+                if (TextBox1.Text == "")
                 {
                     Label1.Text = "is required";
                 }
@@ -59,6 +59,10 @@ namespace where2go.Page.En
                     Label8.Text = "is required";
                 }
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "CallMyFunction()", "showContent1();", true);
+            }
+            else
+            {
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "CallMyFunction()", "showContent2();", true);
             }
         }
     }
