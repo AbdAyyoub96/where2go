@@ -93,7 +93,15 @@
             </div>
          <div class="form-group">
             <div class="input-group">
-                <asp:TextBox ID="TextBox8" CssClass="form-control" placeholder="location" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TextBox8" ClientIDMode="Static" CssClass="form-control" placeholder="location" runat="server"></asp:TextBox>
+                <script>
+                     function initialize()
+                     {
+                    var input = document.getElementById('TextBox8');
+                             new google.maps.places.Autocomplete(input);
+                     }
+                        google.maps.event.addDomListener(window, 'load', initialize);
+                   </script>
                 </div>
             <div class="input-group">
                 <asp:Label ID="Label8" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>

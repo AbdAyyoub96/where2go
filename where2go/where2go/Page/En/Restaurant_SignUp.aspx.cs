@@ -14,7 +14,12 @@ namespace where2go.Page.En
         {
 
         }
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void Submit(object sender, EventArgs e)
+        {
+            string name = Request.Form["searchTextField"];
+            
+        }
+            protected void Button1_Click(object sender, EventArgs e)
         {
             lblErrUserName.Text = ""; Label1.Text = ""; Label2.Text = ""; Label3.Text = ""; Label4.Text = ""; Label5.Text = "";
             Label6.Text = ""; Label7.Text = ""; Label8.Text = "";
@@ -54,6 +59,7 @@ namespace where2go.Page.En
                 {
                     Label7.Text = "is required";
                 }
+
                 if (TextBox8.Text == "")
                 {
                     Label8.Text = "is required";
@@ -62,6 +68,7 @@ namespace where2go.Page.En
             }
             else
             {
+                
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "CallMyFunction()", "showContent2();", true);
             }
         }
