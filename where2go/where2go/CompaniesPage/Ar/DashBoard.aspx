@@ -4,19 +4,14 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br />
     <div class="container">
-  <div class="dropdown dropleft">
-      الحالة
-    <button type="button" class="btn btn-success btn-circle dropdown-toggle" data-toggle="dropdown">
-    </button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">
-          <img src="../../status/iconfinder_status_46254.png" />متاح</a>
-      <a class="dropdown-item" href="#">
-          <img src="../../status/iconfinder_status-away_46251.png" />مشغول</a>
-      <a class="dropdown-item" href="#">
-          <img src="../../status/iconfinder_status-busy_46252.png" />مغلق</a>
-    </div>
-  </div>
+        <div class="dropdown dropright">
+            <strong style="font-weight:bold">الحالة</strong>
+         <asp:DropDownList ID="DropDownList1" CssClass="btn btn-outline-success" runat="server">
+            <asp:ListItem>متاح</asp:ListItem>
+            <asp:ListItem>مشغول</asp:ListItem>
+            <asp:ListItem>مغلق</asp:ListItem>
+        </asp:DropDownList>
+            </div>
 </div>
     <br />
     <div class="container align-content-md-center">
@@ -59,7 +54,6 @@
           </div>
             </div>
     <hr />
-    <form id="form1" runat="server">
     <div class="container-fluid">
           <div class="card shadow mb-4">
             <div class="card-header py-3">
@@ -128,7 +122,6 @@
                 </div>
               </div>
         </div>
-        </form>
 
 <script>
 $(document).ready(function(){

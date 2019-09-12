@@ -15,9 +15,13 @@
     <link href="../../Content/fonts/ionicons.css" rel="stylesheet" />
     <link href="../../Content/fonts/beyond_the_mountains-webfont.css" rel="stylesheet" />
     <link href="../../Content/plugin-frameworks/swiper.css" rel="stylesheet" />
+    <link href="../../Content/css/log.css" rel="stylesheet" />
+    <script src="../../Content/css/show.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="../../Content/Toastr/En/error.js"></script>
+    <script src="../../Content/Toastr/En/Warning.js"></script>
     <link href="../../Content/login.css" rel="stylesheet" />
-
-  
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
