@@ -78,7 +78,10 @@
                 </div>
             <div class="input-group">
                 <asp:Label ID="Label6" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
-        </div>
+        <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ForeColor="Red"
+                  ControlToValidate="TextBox6" ErrorMessage="أدخل رقم الهاتف بشكل صحيح"  
+                        ValidationExpression="[0-9]{10}"></asp:RegularExpressionValidator>
+            </div>
             </div>
          <div class="form-group">
             <div class="input-group">

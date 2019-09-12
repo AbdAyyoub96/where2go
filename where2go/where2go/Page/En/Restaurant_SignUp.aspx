@@ -74,10 +74,13 @@
             </div>
          <div class="form-group">
             <div class="input-group">
-                <asp:TextBox ID="TextBox6" CssClass="form-control" placeholder="Restaurant phone number" runat="server"></asp:TextBox>
-                </div>
+                <asp:TextBox ID="TextBox6" CssClass="form-control" ClientIDMode="Static" placeholder="Restaurant phone number" runat="server"></asp:TextBox>
+            </div>
             <div class="input-group">
                 <asp:Label ID="Label6" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ForeColor="Red"
+                  ControlToValidate="TextBox6" ErrorMessage="Enter the phone number correctly"  
+                        ValidationExpression="[0-9]{10}"></asp:RegularExpressionValidator>
         </div>
             </div>
          <div class="form-group">
