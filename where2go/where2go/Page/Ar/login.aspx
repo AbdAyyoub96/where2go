@@ -32,9 +32,9 @@
              </div>
   </div>
         <div class="form-group">
-            <asp:Button ID="Button1" CssClass="btn btn-success btn-lg btn-block signup-btn" Text="دخول" runat="server" OnClick="Button1_Click"/> 
+            <asp:Button ID="Button1" CssClass="btn btnsub btn-lg btn-block" Text="دخول" runat="server" OnClick="Button1_Click"/> 
         </div>
-          <div class="text-center small">ليس لديك حساب؟ <a href="User_SignUp.aspx">سجل الآن</a></div>
+          <div class="text-center">ليس لديك حساب؟ <a href="User_SignUp.aspx">سجل الآن</a></div>
     </form>
         </div>
 </asp:Content>

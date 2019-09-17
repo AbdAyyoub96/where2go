@@ -2,8 +2,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <br />
     <div class="signin-form">
-    <form id="form1" class="alert-success" novalidate runat="server" method="post">
+    <form id="form1" novalidate runat="server" method="post">
 		<h2>Login</h2>
         <p class="hint-text">Login with your social media</p>
 		<div class="social-btn text-center">
@@ -32,9 +33,9 @@
              </div>
   </div>
         <div class="form-group">
-            <asp:Button ID="Button1" CssClass="btn btn-success btn-lg btn-block signup-btn" Text="Login" runat="server" OnClick="Button1_Click" /> 
+            <asp:Button ID="Button1" CssClass="btn btnsub btn-lg btn-block" Text="Login" runat="server" OnClick="Button1_Click" /> 
         </div>
-          <div class="text-center small">Don't have an account?<a href="User_SignUp.aspx"> Register now</a></div>
+          <div class="text-center">Don't have an account?<a href="User_SignUp.aspx"> Register now</a></div>
     </form>
         </div>
 </asp:Content>

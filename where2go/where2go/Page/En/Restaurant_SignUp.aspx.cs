@@ -66,7 +66,7 @@ namespace where2go.Page.En
                 }
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "CallMyFunction()", "showContent1();", true);
             }
-            else
+            
             else
             {
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "CallMyFunction()", "showContent2();", true);

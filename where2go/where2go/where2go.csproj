@@ -81,6 +81,7 @@
     <Content Include="CompaniesPage\En\Pre_rev.aspx" />
     <Content Include="CompaniesPage\En\Profile.aspx" />
     <Content Include="CompaniesPage\En\Reservations.aspx" />
+    <Content Include="Content\agency.min.css" />
     <Content Include="Content\Angular.css" />
     <Content Include="Content\Angular.js" />
     <Content Include="Content\bootstrap-4.3.1-dist\css\bootstrap-grid.css" />
@@ -144,6 +145,9 @@
     <Content Include="Content\fonts\ionicons.css" />
     <Content Include="Content\fonts\ionicons.svg" />
     <Content Include="Content\gsdk-bootstrap-wizard.css" />
+    <Content Include="Content\Mynavbar\Ar_Nav.css" />
+    <Content Include="Content\Mynavbar\En_Nav.css" />
+    <Content Include="Content\Mynavbar\Nav.js" />
     <Content Include="Content\profile\profile.js" />
     <Content Include="Content\profile\profile11.css" />
     <Content Include="Content\Toastr\Ar\error.js" />
@@ -222,6 +226,7 @@
     <Content Include="Content\search.css" />
     <Content Include="Global.asax" />
     <Content Include="imagewhre2Go\1-back.jpg" />
+    <Content Include="imagewhre2Go\coffee_cover.jpg" />
     <Content Include="imagewhre2Go\download %281%29.jpg" />
     <Content Include="imagewhre2Go\download.jpg" />
     <Content Include="imagewhre2Go\GettyImages-1026535664.jpg" />
@@ -234,6 +239,7 @@
     <Content Include="imagewhre2Go\Screenshot_02.jpg" />
     <Content Include="img\1.png" />
     <Content Include="img\Logo.png" />
+    <Content Include="loader\bootstrap.min.css" />
     <Content Include="loader\loader.css" />
     <Content Include="loader\Loader.js" />
     <Content Include="Page\Ar\All_Restaurants.aspx" />

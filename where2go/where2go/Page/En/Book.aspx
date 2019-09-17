@@ -19,39 +19,62 @@
         <div class="card card-signin my-5">
           <div class="card-body">
               <h5 class="card-title text-center">Please fill in your reservation details</h5>
-            <form id="frm" runat="server" class="form-signin">
-                 <div class="form-label-group">
-                  <asp:Label ID="Label3" CssClass="d-flex align-items-center" runat="server" Text="Full Name"></asp:Label>
-                  <asp:TextBox ID="inputname"  runat="server" Cssclass="form-control" ViewStateMode="Enabled" ></asp:TextBox>
-              </div>
-              <div class="form-label-group">
-                  <asp:Label ID="Label1" CssClass="d-flex align-items-center" runat="server" Text="E-mail"></asp:Label>
-                  <asp:TextBox ID="inputEmail" runat="server" Cssclass="form-control" TextMode="Email" ></asp:TextBox>
-              </div>
-                 <div class="form-label-group">
-                   <asp:Label ID="Label2" CssClass="d-flex align-items-center" runat="server" Text="Phone"></asp:Label>
-                  <asp:TextBox ID="inputPhone"  runat="server" Cssclass="form-control" TextMode="Phone" ></asp:TextBox>
-              </div>
-              <div class="form-label-group">
-                  <asp:Label ID="Label4" CssClass="d-flex align-items-center" runat="server" Text="The number of people"></asp:Label>
-                  <asp:TextBox ID="inputnumber"  runat="server" Cssclass="form-control" TextMode="Number" ></asp:TextBox>
-              </div>
-                <div class="form-label-group">
-                    <asp:Label ID="Label5" CssClass="d-flex align-items-center" runat="server" Text="Time and date of booking"></asp:Label>
-                  <asp:TextBox ID="inputDate" runat="server" Cssclass="form-control" TextMode="DateTimeLocal"></asp:TextBox>
-              </div>
-                 <div class="form-group">
-                     <asp:Label ID="Label6" CssClass="d-flex align-items-center alert-danger"  runat="server" Text="**For special requests please write them here like birthdays"></asp:Label>
-
-                     <asp:TextBox ID="TextBox1" Cssclass="form-control" runat="server"  MaxLength="1000" Rows="5" TextMode="MultiLine"></asp:TextBox>
-                   
-              </div>
-                <asp:Button ID="Button1" runat="server" CssClass="btn btn-lg btn-dark btn-block text-uppercase" Text="Book Now" />
-            </form>
+              <div class="signin-form">
+    <form id="form1" class="alert-success" novalidate runat="server" method="post">
+        <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="txtUserName" CssClass="form-control" placeholder="Full Name" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="lblErrUserName" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="TextBox1" CssClass="form-control" placeholder="E-Mail" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="Label1" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+             </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="TextBox2" CssClass="form-control" placeholder="Phone" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="Label2" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="TextBox3" CssClass="form-control" placeholder="Number of People" TextMode="Number" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="Label3" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="TextBox4" CssClass="form-control" placeholder="Time and date of booking" TextMode="DateTimeLocal" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="Label4" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+         <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="TextBox5" CssClass="form-control" placeholder="For special requests please write them here like birthdays" TextMode="MultiLine" runat="server"></asp:TextBox>
+                </div>
+            </div>
+        <div class="form-group">
+            <asp:Button ID="Button1" CssClass="btn btn-success btn-lg btn-block signup-btn" Text="subscribe" runat="server" OnClick="Button1_Click"/> 
+        </div>
+    </form>
+        </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
    
 </asp:Content>

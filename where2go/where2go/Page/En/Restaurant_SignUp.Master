@@ -24,39 +24,24 @@
     <script src="../../Content/Toastr/En/Sucsses.js"></script>
     <script src="../../Content/Toastr/En/error.js"></script>
     <link href="../../Content/login.css" rel="stylesheet" />
+    <link href="../../Content/Mynavbar/En_Nav.css" rel="stylesheet" />
+    <script src="../../Content/Mynavbar/Nav.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
- <div class="container">
-                     <ul class="nav navbar-nav">
-                      
-        <li class="nav-item active">
-             <a class="navbar-brand" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:x-large;font-weight:bold" href="Main.aspx">
-                Where2go
-            </a>
-        </li>
-        
-    </ul>
- <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link active"href="All_Restaurants.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">All Restaurants </a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="login.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold"><span class="glyphicon glyphicon-log-in"> </span>   Login</a>
-  </li>
-</ul>
-      <div class="nav navbar-nav">
-    <ul class="nav">
-            <li class="nav-item">
-    <a class="nav-link" href="../Ar/Restaurant_SignUp.aspx" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">العربية</a>
-  </li>
-</ul>
-            
-      </div>
-     </div>
-</nav>
+  <div id="load"></div>
+    <div class="topnav fixed-top" id="myTopnav">
+  <a href="Main.aspx" class="active">Where2go</a>
+  <a href="All_Restaurants.aspx"><i class="ionicons ion-android-restaurant"></i> All Restaurants</a>
+  <a href="login.aspx"><i class="ionicons ion-log-in"></i>   Login</a>
+  <a href="../Ar/Restaurant_SignUp.aspx" class="end">العربية <i class="fa fa-language"></i></a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-openid"></i>
+  </a>
+</div>
+    <br />
+    <br />
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
