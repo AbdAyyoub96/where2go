@@ -2,13 +2,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-        <div style="background-image:url(../../images/slider_5_1920_600.jpg);opacity:50">
+        <div style="background-image:url(../../images/slider_5_1920_600.jpg)">
             <br /><br /><br /><br />
             <div class="row justify-content-center">
                 <br /><br /><br />
-                <h1 style="color:#9900ff;font-family:Mistral;font-weight:bold">WhereToGo</h1>
+                <h1 class="hyper">WhereToGo</h1>
                 </div>
-                <br /><br /><br />
+                <br /><br />
                 <div class="row justify-content-center">
                         <div class="col-md-6">
                            <input class="form-control" type="text" placeholder="Find your favorite restaurant" aria-label="Search">
@@ -17,12 +17,11 @@
             <br />
             <div class="row justify-content-center">
                         <div class="col-md-1.5">
-                         <asp:HyperLink runat="server" NavigateUrl="#" CssClass="btn btnsub" Font-Bold="true" ForeColor="Black" Text="Search"> </asp:HyperLink>
+                         <asp:Button ID="Button1" CssClass="btn btnsub btn-lg btn-block" Text="Search" runat="server"/> 
                         </div>
                     <br /><br /><br /><br /><br /><br />
                 </div>
             <br /><br /><br /><br />
-            <br /><br />
                 </div>
     <div class="container">
         

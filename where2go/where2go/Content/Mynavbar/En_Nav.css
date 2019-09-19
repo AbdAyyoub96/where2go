@@ -1,8 +1,9 @@
 ﻿
+
 .topnav {
     overflow: hidden;
-    background-color: #9900ff;
     font-family: 'Times New Roman';
+    background-image: url('../../img/colors900x1440.jpg');
     font-weight: bold;
     font-size: xx-large;
 }
@@ -12,7 +13,7 @@
         display: block;
         color: #f2f2f2;
         text-align: center;
-        padding: 22px 20px;
+        padding: 25px 18px;
         text-decoration: none;
         font-size: 20px;
         font-weight: bold;
@@ -30,34 +31,74 @@
         }
 
         .topnav a:hover {
-            border-color: #9900cc;
+            border-color: #ff3300;
             background-color: white;
-            border-radius:18px;
-            color: #9900cc;
+            border-radius: 18px;
+            color: #ff3300;
         }
 
         .topnav a.active {
-            background-color: #9900ff;
-            color: white;
+            border-radius: 10px;
+            background-color: white;
             font-size: 25px;
+            color: #ff3300;
             font-weight: bold;
         }
 
     .topnav .icon {
         display: none;
     }
-.btnsub {
+.bg-4 {
+    background-image: url('../../img/123123123.png');
+    color: #ff3300;
+    text-align: center;
+    padding-top: 10px;
+    font-size: x-large;
+    padding-bottom: 40px;
+    font-family: 'Times New Roman';
+}
+    .bg-4 p {
+        color: white ;
+        font-weight: bold;
+        font-family: 'Times New Roman';
+    }
+    .bg-4 a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 25px 18px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+        .bg-4 a:hover {
+            border-color: #ff3300;
+            background-color: white;
+            border-radius: 18px;
+            color: #ff3300;
+        }
+
+    .btnsub {
     overflow: hidden;
-    border-color: #9900ff;
+    border-color: #ff3300;
     font-family: 'Times New Roman';
     font-weight: bold;
+    background-color:white;
+    border-radius:400px;
     font-size: xx-large;
-    color: #9900cc;
+    color: #ff3300;
 }
-.btnsub:hover {
-    overflow: hidden;
-    background-color: #9900ff;
-    color: white;
+        .btnsub:hover {
+            overflow: hidden;
+            background-color: #ff3300;
+            color: white;
+            border-color: white;
+        }
+.hyper {
+    color: #ff3300;
+    font-family: Mistral;
+    font-weight: bold;
+    font-size: 120px
 }
 
 .btnrej {
@@ -111,5 +152,6 @@
             display: block;
             text-align: left;
         }
+ 
 }
 

@@ -226,6 +226,7 @@
     <Content Include="Content\search.css" />
     <Content Include="Global.asax" />
     <Content Include="imagewhre2Go\1-back.jpg" />
+    <Content Include="imagewhre2Go\232-512.png" />
     <Content Include="imagewhre2Go\coffee_cover.jpg" />
     <Content Include="imagewhre2Go\download %281%29.jpg" />
     <Content Include="imagewhre2Go\download.jpg" />
@@ -238,6 +239,12 @@
     <Content Include="imagewhre2Go\Logo_636790325111715350.jpg" />
     <Content Include="imagewhre2Go\Screenshot_02.jpg" />
     <Content Include="img\1.png" />
+    <Content Include="img\123123123.png" />
+    <Content Include="img\1657-1.jpg" />
+    <Content Include="img\500_F_162897827_Bal0bY2GTuq5GmitQMCdSp1ISQoLMUbO.jpg" />
+    <Content Include="img\colors900x1440.jpg" />
+    <Content Include="img\images.jpg" />
+    <Content Include="img\loader-2_food.gif" />
     <Content Include="img\Logo.png" />
     <Content Include="loader\bootstrap.min.css" />
     <Content Include="loader\loader.css" />

@@ -3,6 +3,5 @@
     height: 100%;
     position: fixed;
     z-index: 9999;
-    background: url("/images/1.gif") no-repeat center center rgb(255, 255, 255)
-    ;
+    background: url('../img/loader-2_food.gif') no-repeat center center rgb(255, 255, 255);
 }
