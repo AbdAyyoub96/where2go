@@ -5,7 +5,7 @@
      <div class="signin-form">
     <form id="form1" class="alert-success" novalidate runat="server" method="post">
 		<h2>تسجيل الدخول</h2>
-        <p class="hint-text">تسجيل الدخول باستخدام وسائل الإتصال الاجتماعية الخاصة بك</p>
+        <p class="hint-text">الدخول باستخدام وسائل الإتصال الاجتماعية الخاصة بك</p>
 		<div class="social-btn text-center">
 			<a href="#" class="btn btn-primary btn-lg" title="Facebook"><i class="fa fa-facebook"></i></a>
 			<a href="#" class="btn btn-danger btn-lg" title="Google"><i class="fa fa-google"></i></a>

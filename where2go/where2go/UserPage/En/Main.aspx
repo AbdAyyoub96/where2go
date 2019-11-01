@@ -2,23 +2,27 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <section class="bg-6 h-500x main-slider pos-relative" style="background-image:url(../../imagewhre2Go/1-back.jpg)">
-        <div class="container">
+     <div style="background-image:url(../../images/slider_5_1920_600.jpg)">
+            <br /><br /><br /><br />
+            <div class="row justify-content-center">
+                <br /><br /><br />
+                <h1 class="hyper">WhereToGo</h1>
+                </div>
+                <br /><br />
+                <div class="row justify-content-center">
+                        <div class="col-md-6">
+                           <input class="form-control" type="text" placeholder="Find your favorite restaurant" aria-label="Search">
+                        </div>
+                    </div>
             <br />
             <div class="row justify-content-center">
-                
-                                <h1 style="color:white;font-family:Mistral;font-weight:bold">WhereToGo</h1>
-                
-                </div>
-            <br />
-                            <div class="row justify-content-center">
-  <input class="form-control" type="text" placeholder="Find your favorite restaurant" aria-label="Search">
-                                <br />
-                                <h5><a href="#" class="btn btn-dark"><b style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman;color:white;font-size:large;font-weight:bold">Search</b></a></h5>
-                                </div>
+                        <div class="col-md-1.5">
+                         <asp:Button ID="Button1" CssClass="btn btnsub btn-lg btn-block" Text="Search" runat="server"/> 
                         </div>
-</section>
-     <hr />
+                    <br /><br /><br /><br /><br /><br />
+                </div>
+            <br /><br /><br /><br />
+                </div>
     <div class="container">
         
      <section class="story-area left-text center-sm-text pos-relative">

@@ -7,6 +7,6 @@
             document.getElementById('interactive');
             document.getElementById('load').style.visibility = "hidden";
             document.getElementById('contents').style.visibility = "visible";
-        }, 2000);
+        }, 5000);
     }
 }

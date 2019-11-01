@@ -38,10 +38,9 @@
         }
 
         .topnav a.active {
-            border-radius: 10px;
-            background-color: white;
+            background-color: #000066;
             font-size: 25px;
-            color: #ff3300;
+            color: white;
             font-weight: bold;
         }
 
@@ -78,22 +77,22 @@
             color: #ff3300;
         }
 
-    .btnsub {
+.btnsub {
     overflow: hidden;
-    border-color: #ff3300;
+    border-color: #000066;
     font-family: 'Times New Roman';
     font-weight: bold;
-    background-color:white;
-    border-radius:400px;
+    background-color: white;
+    border-radius: 400px;
     font-size: xx-large;
-    color: #ff3300;
+    color: #000066;
 }
-        .btnsub:hover {
-            overflow: hidden;
-            background-color: #ff3300;
-            color: white;
-            border-color: white;
-        }
+    .btnsub:hover {
+        overflow: hidden;
+        background-color: #000066;
+        color: white;
+        border-color: white;
+    }
 .hyper {
     color: #ff3300;
     font-family: Mistral;

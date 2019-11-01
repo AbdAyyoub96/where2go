@@ -46,6 +46,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -81,6 +83,13 @@
     <Content Include="CompaniesPage\En\Pre_rev.aspx" />
     <Content Include="CompaniesPage\En\Profile.aspx" />
     <Content Include="CompaniesPage\En\Reservations.aspx" />
+    <None Include="Connected Services\W2GOWCF\Users.disco" />
+    <None Include="Connected Services\W2GOWCF\configuration91.svcinfo" />
+    <None Include="Connected Services\W2GOWCF\configuration.svcinfo" />
+    <None Include="Connected Services\W2GOWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Content\agency.min.css" />
     <Content Include="Content\Angular.css" />
     <Content Include="Content\Angular.js" />
@@ -289,6 +298,22 @@
     <Content Include="CompaniesPage\En\Pre_rev.Master" />
     <Content Include="CompaniesPage\Ar\Reservations.Master" />
     <Content Include="CompaniesPage\En\Reservations.Master" />
+    <None Include="Connected Services\W2GOWCF\Users.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\W2GOWCF\Users1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\W2GOWCF\Users2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\W2GOWCF\Users3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\W2GOWCF\UsersService.wsdl" />
+    <Content Include="Connected Services\W2GOWCF\where2go.W2GOWCF.UsersInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
@@ -426,6 +451,11 @@
     </Compile>
     <Compile Include="CompaniesPage\En\Reservations.Master.designer.cs">
       <DependentUpon>Reservations.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\W2GOWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -944,6 +974,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\W2GOWCF\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

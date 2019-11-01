@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3b7581e7-3048-491f-8e69-f1ffc8330574" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://pen4tech.com/W2GoWcf/Users.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UsersService.wsdl" MetadataType="Wsdl" ID="8857c95b-6a2f-4fe0-9f15-498a130f6ed1" SourceId="1" SourceUrl="http://pen4tech.com/W2GoWcf/Users.svc?wsdl" />
+    <MetadataFile FileName="Users.xsd" MetadataType="Schema" ID="6792482e-50fe-4d7c-89dd-1b4f2bd5af26" SourceId="1" SourceUrl="http://pen4tech.com/W2GoWcf/Users.svc?xsd=xsd2" />
+    <MetadataFile FileName="Users1.xsd" MetadataType="Schema" ID="1e9c031d-74c2-40cf-a673-16531d6daa8d" SourceId="1" SourceUrl="http://pen4tech.com/W2GoWcf/Users.svc?xsd=xsd1" />
+    <MetadataFile FileName="Users2.xsd" MetadataType="Schema" ID="a92390f4-fddc-481a-88dd-169eb24b5006" SourceId="1" SourceUrl="http://pen4tech.com/W2GoWcf/Users.svc?xsd=xsd0" />
+    <MetadataFile FileName="Users3.xsd" MetadataType="Schema" ID="55140bd1-1c51-4535-887e-d1fb5013c777" SourceId="1" SourceUrl="http://pen4tech.com/W2GoWcf/Users.svc?xsd=xsd3" />
+    <MetadataFile FileName="Users.disco" MetadataType="Disco" ID="89b3ca13-695d-40c8-a486-2d193685cf67" SourceId="1" SourceUrl="http://pen4tech.com/W2GoWcf/Users.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

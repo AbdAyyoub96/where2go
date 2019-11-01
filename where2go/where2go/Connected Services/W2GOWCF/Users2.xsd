@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://pen4tech.com/W2GoWcf/Users.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/UsersLibrary" />
+  <xs:element name="GrantAccess">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strUserName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrantAccessResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrantAccessResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UsersAuth">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strUserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strPassword" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UsersAuthResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/UsersLibrary" minOccurs="0" name="UsersAuthResult" nillable="true" type="q1:ArrayOfUsersInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateUsers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strUserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strFirstName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strLastName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="intCountry" type="xs:int" />
+        <xs:element minOccurs="0" name="strMobile" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strImgUrl" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateUsersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/UsersLibrary" minOccurs="0" name="CreateUsersResult" nillable="true" type="q2:ArrayOfUsersInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ResendEmailUsers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strUserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strMobile" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ResendEmailUsersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/UsersLibrary" minOccurs="0" name="ResendEmailUsersResult" nillable="true" type="q3:ArrayOfUsersInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Password">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strUserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strMobile" nillable="true" type="xs:string" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/UsersLibrary" minOccurs="0" name="intKey" type="q4:UsersHelper.PasswordActionType" />
+        <xs:element minOccurs="0" name="strCurrentPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strNewPassword" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PasswordResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/UsersLibrary" minOccurs="0" name="PasswordResult" nillable="true" type="q5:ArrayOfUsersInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="UsersService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://pen4tech.com/W2GoWcf/Users.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://pen4tech.com/W2GoWcf/Users.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AppLibrary" />
+      <xsd:import schemaLocation="http://pen4tech.com/W2GoWcf/Users.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://pen4tech.com/W2GoWcf/Users.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/UsersLibrary" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IUsersService_GrantAccess_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrantAccess" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_GrantAccess_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrantAccessResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_GrantAccess_AppExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/AppLibrary" name="detail" element="q1:AppException" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_UsersAuth_InputMessage">
+    <wsdl:part name="parameters" element="tns:UsersAuth" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_UsersAuth_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UsersAuthResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_UsersAuth_AppExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/AppLibrary" name="detail" element="q2:AppException" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_CreateUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateUsers" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_CreateUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_CreateUsers_AppExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/AppLibrary" name="detail" element="q3:AppException" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_ResendEmailUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:ResendEmailUsers" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_ResendEmailUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ResendEmailUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_ResendEmailUsers_AppExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/AppLibrary" name="detail" element="q4:AppException" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_Password_InputMessage">
+    <wsdl:part name="parameters" element="tns:Password" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_Password_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUsersService_Password_AppExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/AppLibrary" name="detail" element="q5:AppException" />
+  </wsdl:message>
+  <wsdl:portType name="IUsersService">
+    <wsdl:operation name="GrantAccess">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUsersService/GrantAccess" message="tns:IUsersService_GrantAccess_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUsersService/GrantAccessResponse" message="tns:IUsersService_GrantAccess_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IUsersService/GrantAccessAppExceptionFault" name="AppExceptionFault" message="tns:IUsersService_GrantAccess_AppExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UsersAuth">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUsersService/UsersAuth" message="tns:IUsersService_UsersAuth_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUsersService/UsersAuthResponse" message="tns:IUsersService_UsersAuth_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IUsersService/UsersAuthAppExceptionFault" name="AppExceptionFault" message="tns:IUsersService_UsersAuth_AppExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUsersService/CreateUsers" message="tns:IUsersService_CreateUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUsersService/CreateUsersResponse" message="tns:IUsersService_CreateUsers_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IUsersService/CreateUsersAppExceptionFault" name="AppExceptionFault" message="tns:IUsersService_CreateUsers_AppExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ResendEmailUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUsersService/ResendEmailUsers" message="tns:IUsersService_ResendEmailUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUsersService/ResendEmailUsersResponse" message="tns:IUsersService_ResendEmailUsers_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IUsersService/ResendEmailUsersAppExceptionFault" name="AppExceptionFault" message="tns:IUsersService_ResendEmailUsers_AppExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Password">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUsersService/Password" message="tns:IUsersService_Password_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUsersService/PasswordResponse" message="tns:IUsersService_Password_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IUsersService/PasswordAppExceptionFault" name="AppExceptionFault" message="tns:IUsersService_Password_AppExceptionFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IUsersService" type="tns:IUsersService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GrantAccess">
+      <soap:operation soapAction="http://tempuri.org/IUsersService/GrantAccess" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AppExceptionFault">
+        <soap:fault use="literal" name="AppExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="UsersAuth">
+      <soap:operation soapAction="http://tempuri.org/IUsersService/UsersAuth" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AppExceptionFault">
+        <soap:fault use="literal" name="AppExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CreateUsers">
+      <soap:operation soapAction="http://tempuri.org/IUsersService/CreateUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AppExceptionFault">
+        <soap:fault use="literal" name="AppExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ResendEmailUsers">
+      <soap:operation soapAction="http://tempuri.org/IUsersService/ResendEmailUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AppExceptionFault">
+        <soap:fault use="literal" name="AppExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Password">
+      <soap:operation soapAction="http://tempuri.org/IUsersService/Password" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AppExceptionFault">
+        <soap:fault use="literal" name="AppExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UsersService">
+    <wsdl:port name="BasicHttpBinding_IUsersService" binding="tns:BasicHttpBinding_IUsersService">
+      <soap:address location="http://pen4tech.com/W2GoWcf/Users.svc/AppServices" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/UsersLibrary" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/UsersLibrary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://pen4tech.com/W2GoWcf/Users.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfUsersInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UsersInfo" nillable="true" type="tns:UsersInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUsersInfo" nillable="true" type="tns:ArrayOfUsersInfo" />
+  <xs:complexType name="UsersInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ptid" type="xs:int" />
+      <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="countryid" type="xs:int" />
+      <xs:element minOccurs="0" name="country_ar" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="country_en" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mobile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="imgurl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="emailcode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="emailverify" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mobilecode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mobileverify" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="created_dt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="modified_dt" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsersInfo" nillable="true" type="tns:UsersInfo" />
+  <xs:simpleType name="UsersHelper.PasswordActionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Change">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Reset">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="UsersHelper.PasswordActionType" nillable="true" type="tns:UsersHelper.PasswordActionType" />
+</xs:schema>

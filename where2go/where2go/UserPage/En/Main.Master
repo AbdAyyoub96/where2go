@@ -17,39 +17,28 @@
     <link href="../../Content/fonts/beyond_the_mountains-webfont.css" rel="stylesheet" />
     <link href="../../Content/plugin-frameworks/swiper.css" rel="stylesheet" />
     <script src="../../Content/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
- 
-
+     <link href="../../Content/Mynavbar/En_Nav.css" rel="stylesheet" />
+    <script src="../../Content/Mynavbar/Nav.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <div class="bs-example">
-    <nav class="navbar navbar-expand-lg navbar-success bg-success">
-         <a class="navbar-brand" style="font-family:Times New Roman; color:black; font-size:x-large;font-weight:bold" href="Main.aspx">
-                Where2go
-         </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="glyphicon glyphicon-chevron-down"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-            <div class="navbar-nav">
-                <a class="nav-link active"href="All_Restaurants.aspx" style="font-family:Times New Roman;color:black;font-weight:bold"><i class="ionicons ion-android-restaurant"></i> All_Restaurants</a>
-                <a class="nav-link" href="Profile.aspx" style="font-family:Times New Roman;color:black;font-weight:bold"><i class="ionicons ion-ios-contact"></i>   Abd Al-Rahman</a>
-               
-            </div>
-          
-            <div class="navbar-nav">
-                 <a class="nav-item nav-link" href="../Ar/Main.aspx" style="font-family:Times New Roman;color:black;font-weight:bold">العربية  <i class="fa fa-language"></i></a>
-                <a class="nav-item nav-link" href="../../Page/En/login.aspx" style="font-family:Times New Roman;color:black;font-weight:bold"><i class="ionicons ion-log-out"></i> logout</a>
-            </div>
-        </div>
-    </nav>
+    <div class="topnav fixed-top" id="myTopnav">
+  <a href="Main.aspx" class="active">Where2go</a>
+  <a href="Profile.aspx"><i class="ionicons ion-ios-contact"></i>   Abd Al-Rahman</a>
+  <a href="All_Restaurants.aspx"><i class="ionicons ion-android-restaurant"></i> All Restaurants</a>
+  <a href="../Ar/Main.aspx" class="end">العربية <i class="fa fa-language"></i></a>
+        <a href="../../Page/En/login.aspx" class="end"><i class="ionicons ion-log-out"></i> logout</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-openid"></i>
+  </a>
 </div>
-   
+    <form id="formmain" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+        </form>
 </body>
 </html>
