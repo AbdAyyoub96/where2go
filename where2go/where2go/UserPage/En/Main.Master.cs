@@ -26,18 +26,18 @@ namespace where2go.UserPage.En
         {
             if (Session["objUserInfo"] == null)
             {
-                Response.Redirect("loginPage");
+                Response.Redirect("/Page/En/login.aspx");
             }
             else if (Session["objUserInfo"] != null)
             {
               objUserInfo = (List<W2GOWCF.UsersInfo>)Session["objUserInfo"];
                 if (objUserInfo[0].status == "Inactive")
                 {
-                    //  Response.Redirect
+                    Response.Redirect("/Page/En/Active.aspx");
                 }
                 else if (objUserInfo[0].status == "Active")
                 {
-                    objUserInfo[0].firstname = firstName.Text;
+                    firstName.Text = objUserInfo[0].firstname;
                 }
             }
         }

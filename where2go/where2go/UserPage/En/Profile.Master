@@ -32,6 +32,7 @@
     <div class="topnav fixed-top" id="myTopnav">
   <a href="Main.aspx" class="active">Where2go</a>
   <a href="All_Restaurants.aspx"><i class="ionicons ion-android-restaurant"></i> All Restaurants</a>
+        <a href="Profile.aspx"><i class="ionicons ion-ios-contact"></i><asp:Label ID="firstName" runat="server"></asp:Label></a>
   <a href="../Ar/Main.aspx" class="end">العربية <i class="fa fa-language"></i></a>
         <a href="../../Page/En/login.aspx" class="end"><i class="ionicons ion-log-out"></i> logout</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">

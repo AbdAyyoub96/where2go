@@ -41,11 +41,12 @@ namespace where2go.Page.En
                     txtPassword.ToString()).ToList();
                 if(objUserInfo[0].status == "Inactive")
                 {
-                  //  Response.Redirect
+                    Response.Redirect("Active.Aspx");
                 }
                 else if (objUserInfo[0].status == "Active")
                 {
                     Session["objUserInfo"] = objUserInfo;
+                    Response.Redirect("/UserPage/En/Main");
                 }
                  
             }

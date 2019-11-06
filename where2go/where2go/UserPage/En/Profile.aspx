@@ -36,7 +36,7 @@
                                                 <label style="font-weight:bold;">Full Name</label>
                                             </div>
                                             <div class="col-md-8 col-6">
-                                                 Abd Al-Rahman Ayyoub
+                                               <asp:Label runat="server" ID="lblFullName"></asp:Label>
                                             </div>
                                         </div>
                                         <hr />
@@ -45,7 +45,7 @@
                                                 <label style="font-weight:bold;">E-Mail</label>
                                             </div>
                                             <div class="col-md-8 col-6">
-                                               Abu2991996@gmail.com
+                                               <asp:Label runat="server" ID="lblemail"></asp:Label>
                                             </div>
                                         </div>
                                         <hr />
@@ -54,8 +54,7 @@
                                                 <label style="font-weight:bold;">Phone Number</label>
                                             </div>
                                             <div class="col-md-8 col-6">
-                                                <asp:TextBox ID="TextBox2" runat="server" Text="0798363493" TextMode="Phone" Enabled="false"></asp:TextBox>
-
+                                               <asp:Label runat="server" ID="lblPhone"></asp:Label>
                                             </div>
                                         </div>
                                         <hr />
@@ -64,7 +63,8 @@
                                                 <label style="font-weight:bold;">Password</label>
                                             </div>
                                             <div class="col-md-8 col-6">
-<asp:TextBox ID="TextBox1" runat="server" Text="Abed1996" TextMode="Password" Enabled="false"></asp:TextBox>
+
+<asp:TextBox ID="txtPassword" runat="server" TextMode="Password" Enabled="false"></asp:TextBox>
                                               
                                             </div>
                                              <div class="col-sm-3 col-md-2 col-5">
