@@ -265,6 +265,7 @@
     <Content Include="Page\Ar\Rate.aspx" />
     <Content Include="Page\Ar\Restaurant_SignUp.aspx" />
     <Content Include="Page\Ar\User_SignUp.aspx" />
+    <Content Include="Page\En\Active.aspx" />
     <Content Include="Page\En\All_Restaurants.aspx" />
     <Content Include="Page\En\Book.aspx" />
     <Content Include="Page\En\login.aspx" />
@@ -314,6 +315,7 @@
     <Content Include="Connected Services\W2GOWCF\where2go.W2GOWCF.UsersInfo.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <Content Include="Page\En\Active.Master" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
@@ -557,6 +559,20 @@
     </Compile>
     <Compile Include="Page\Ar\User_SignUp.Master.designer.cs">
       <DependentUpon>User_SignUp.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\Active.aspx.cs">
+      <DependentUpon>Active.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\Active.aspx.designer.cs">
+      <DependentUpon>Active.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\En\Active.Master.cs">
+      <DependentUpon>Active.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\En\Active.Master.designer.cs">
+      <DependentUpon>Active.Master</DependentUpon>
     </Compile>
     <Compile Include="Page\En\All_Restaurants.aspx.cs">
       <DependentUpon>All_Restaurants.aspx</DependentUpon>

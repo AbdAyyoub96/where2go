@@ -2,61 +2,61 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <br />
+    <br />
     <div class="container">
-    <div class="row">
-      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-        <div class="card card-signin my-5">
-          <div class="card-body">
-            <form id="frm" runat="server" class="form-signin">
-              <div class="form-label-group">
-                  <div class="row">
-      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                  <asp:Label ID="Label3" runat="server" Text="Current Password"></asp:Label>
-          </div>
-      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-        <asp:TextBox ID="txtpass" type="password" runat="server" class="form-control"></asp:TextBox>
-          </div>
-            </div>
-              </div>
-                <hr />
-                <div class="form-label-group">
-                    <div class="row">
-                    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                    <asp:Label ID="lbl2"  runat="server" Text="New Password"></asp:Label>
-                   </div>
-                        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                        <asp:TextBox ID="TextBox1" type="password" runat="server" CssClass="form-control"/>
-                   </div>
-              </div>
-                    </div>
-                <div class="form-label-group">
-                <div class="row">
-                    <div class="col-sm-9 col-md-7 col-lg-6 mx-auto">
-                        <asp:Label ID="Label2" runat="server" Text="Confirm Password"></asp:Label>
-                  </div>
-                    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                        <asp:TextBox ID="TextBox2" TextMode="Password" runat="server" class="form-control"></asp:TextBox>
-                        </div>
-              </div>
-                    </div>
-              
-                <asp:Label ID="Label1" Font-Bold="true" ForeColor="Red" runat="server" Text="Label" Visible="false"></asp:Label>
-                <hr />
-                <div class="row">
-      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-            <asp:HyperLink CssClass="btn btn-lg btn-danger btn-block text-uppercase" ID="HyperLink1" runat="server" NavigateUrl="~/UserPage/En/Profile.aspx">Cancel</asp:HyperLink>
-               
-          </div>
-      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                <asp:Button ID="Button1" runat="server"  Text="Change" CssClass="btn btn-lg btn-success btn-block text-uppercase" OnClick="Button1_Click" />
-    </div>
-                    </div>
-              <hr class="my-4">
-            </form>
-          </div>
+            <div class="signin-form">
+    <form id="form1" novalidate runat="server" method="post">
+		<h2 class="font-weight-bold" style="color:orangered;font-family:'Times New Roman'">Change Password</h2>
+		
+        <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="txtEmail" CssClass="form-control" placeholder="Email" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="lblErrEmail" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
         </div>
-      </div>
+            </div>
+         <div class="form-group">
+    <div class="input-group">
+        <asp:TextBox ID="txtPhone" CssClass="form-control" placeholder="Enter Your Phone" runat="server" TextMode="Password"></asp:TextBox>
+        
     </div>
+             <div class="input-group">
+                 <asp:Label ID="lblErrPassword" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+             </div>
   </div>
+        <hr />
+        <div class="form-group">
+            <div class="input-group">
+                <asp:TextBox ID="PrePassword" CssClass="form-control" placeholder="Current Password" runat="server"></asp:TextBox>
+                </div>
+            <div class="input-group">
+                <asp:Label ID="Label1" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+        </div>
+            </div>
+         <div class="form-group">
+    <div class="input-group">
+        <asp:TextBox ID="NPassword" CssClass="form-control" placeholder="New Password" runat="server" TextMode="Password"></asp:TextBox>
+        
+    </div>
+             <div class="input-group">
+                 <asp:Label ID="Label2" CssClass="help-block" runat="server" Text="" ForeColor="Red"></asp:Label>
+             </div>
+  </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-6">
+                    <asp:Button ID="Cancel" CssClass="btn btnrej btn-lg btn-block" Text="Cancel" NavigateUrl="~/UserPage/En/Profile.aspx" runat="server"/> 
+                </div>
+                <div class="col-6">
+                    <asp:Button ID="ChangePassword" CssClass="btn btnsub btn-lg btn-block" Text="Change" runat="server" OnClick="ChangePassword_Click"/> 
+                </div>
+            </div>
+            <asp:Label ID="lblerror" runat="server" Visible="false"></asp:Label>
+        </div>
+    </form>
+        </div>
+          </div>
     
 </asp:Content>

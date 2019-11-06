@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace where2go.UserPage.En {
+namespace where2go.Page.En {
     
     
-    public partial class Main {
+    public partial class Active {
         
         /// <summary>
         /// head control.
@@ -20,24 +20,6 @@ namespace where2go.UserPage.En {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
-        
-        /// <summary>
-        /// firstName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label firstName;
-        
-        /// <summary>
-        /// formmain control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm formmain;
         
         /// <summary>
         /// ContentPlaceHolder1 control.

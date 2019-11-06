@@ -35,6 +35,8 @@
         <div class="form-group">
             <asp:Button ID="Button1" CssClass="btn btnsub btn-lg btn-block" Text="Login" runat="server" OnClick="Button1_Click" /> 
         </div>
+            <asp:Label ID="lblerror" runat="server" Visible="false"></asp:Label>
+
           <div class="text-center">Don't have an account?<a href="User_SignUp.aspx"> Register now</a></div>
     </form>
         </div>
