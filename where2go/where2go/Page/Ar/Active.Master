@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Active.master.cs" Inherits="where2go.Page.En.Active" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Active.master.cs" Inherits="where2go.Page.Ar.Active" %>
 
 <!DOCTYPE html>
 
@@ -27,17 +27,18 @@
     <script src="../../Content/css/show.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-    <script src="../../Content/Toastr/En/error.js"></script>
-    <script src="../../Content/Toastr/En/Warning.js"></script>
-    <link href="../../Content/Mynavbar/En_Nav.css" rel="stylesheet" />
+    <script src="../../Content/Toastr/Ar/error.js"></script>
+    <script src="../../Content/Toastr/Ar/Warning.js"></script>
+    <link href="../../Content/Mynavbar/Ar_Nav.css" rel="stylesheet" />
     <script src="../../Content/Mynavbar/Nav.js"></script>
+    <link href="../../Content/RTL%20bootstrap.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-     <div class="topnav fixed-top" id="myTopnav">
+    <div class="topnav fixed-top" id="myTopnav">
   <a href="Main.aspx" class="active">Where2go</a>
-  <a href="../Ar/Active.aspx" class="end">العربية <i class="fa fa-language"></i></a>
+  <a href="../En/Active.aspx" class="end">English <i class="fa fa-language"></i></a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-openid"></i>
   </a>

@@ -258,6 +258,7 @@
     <Content Include="loader\bootstrap.min.css" />
     <Content Include="loader\loader.css" />
     <Content Include="loader\Loader.js" />
+    <Content Include="Page\Ar\Active.aspx" />
     <Content Include="Page\Ar\All_Restaurants.aspx" />
     <Content Include="Page\Ar\Book.aspx" />
     <Content Include="Page\Ar\Login.aspx" />
@@ -316,6 +317,7 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
     <Content Include="Page\En\Active.Master" />
+    <Content Include="Page\Ar\Active.Master" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
@@ -461,6 +463,20 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\Active.aspx.cs">
+      <DependentUpon>Active.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\Active.aspx.designer.cs">
+      <DependentUpon>Active.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Ar\Active.Master.cs">
+      <DependentUpon>Active.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Ar\Active.Master.designer.cs">
+      <DependentUpon>Active.Master</DependentUpon>
     </Compile>
     <Compile Include="Page\Ar\All_Restaurants.aspx.cs">
       <DependentUpon>All_Restaurants.aspx</DependentUpon>
