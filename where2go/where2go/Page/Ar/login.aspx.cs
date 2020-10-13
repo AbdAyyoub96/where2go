@@ -42,7 +42,7 @@ namespace where2go.Page.Ar
                 else if (txtPassword.Text == "")
                 {
                     Page.ClientScript.RegisterStartupScript(this.GetType(), "CallMyFunction()", "showContent1();", true);
-                    lblErrPassword.Text = "كلمة المرور مطلوبة";
+                    lblErrPassword.Text = "كلمة المرور مطلوبه";
                 }
 
             }
@@ -52,4 +52,3 @@ namespace where2go.Page.Ar
             }
         }
     }
-}
